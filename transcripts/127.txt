@@ -1,0 +1,277 @@
+AAI127
+===
+
+Ronsley: ~ Good morning for you, bright and early. Happy. Good morning. Good evening for me. But you have a training session next week that you're advertising. Is that the same one that we did with? It's a different one. Yeah. It's the one that it's the one that the James asked, like, he was like, Oh, is there a way that.~
+
+~We could get AI to write like us and do the content. So that's the whole, it's the whole content workshop. Okay. Is that something that's out of this academy? So it's something we need to pay for, right? Yeah. Yeah. It's not in the academy and the academy is sorry, this is a fucking mosquito driving me crazy.~
+
+~The academy is separate. It's like 17 a month, something really cheap, I think, but if you're already in it and you got it in free, then you won the early ones. And yeah, so that's kind of separate. It's more support and community and yeah, the, the, the monthly, the monthly webinars are just like this add on that no discount code, right?~
+
+~Say again. Is there a discount code? Just if you send an email through Nat has like has a breakdown of if you've attended before you get a, you get, you get some sort of thing. I can't remember what it is. So if you just send an email, Nat would reply back to you with and say, I attended the last, the last one.~
+
+~Okay. All right. Thank you. I think it's next week, Thursday, right? It is exactly Thursday. Yep. You're right. Thank you. You're very welcome. Scott's mental Mercedes would love to see or hear you. If you're around Scott, welcome. Hey, Mercedes, how are you Scott? How's it going? Good. How are you? Fantastic.~
+
+~Good to see you. Good to see you too. I think we met years ago, actually in at two 12. I 2 12. Wow. Yeah. Yeah. That was a long time ago. Yeah. Like five years ago. Yeah. I think it was, we got, we got into Santa Barbara for that one. Or is it or is it probably Santa Barbara? Yeah. Santa Barbara. Yeah. I think that's, I remember, I remember meeting there.~
+
+~So, yeah. Oh, cool. And it's been, I think COVID has just knocked my concept of time and space out. So like, yeah, the five years seem like such a long time ago. It does. Yeah, I was thinking like they, because they had that 2020 event they were going to do and then it ended up getting canceled because of coded.~
+
+~Right? And then how many, how many did you go to? Did you just go to the last 1? Or did you go to the other ones to just the 1? Yeah, just the 1. Okay. I'm a, I'm an. Members have been going to mastermind talks for maybe. Since 2018, so that's that's another similar, but more close knit community. It's actually happening right now in Delmar, but it was like 4 flights or something from here.~
+
+~So I was like, no, it's too far. Okay. Yeah, I think, I'm kind of friends like Dan Martell's in that too, right? For a long time. Yeah, as well. Okay. Martell's in there Martell's in there Tim Ferriss is in there Ryan Holliday's in there. There's some pretty cool people. Like it's, it's not, the first time I went in 2013, in 2018, I went to Fox City.~
+
+~I was like, I don't know if I belong in the right room because on my table was Dave Asprey and like, I was like, what, how did I get in here? Oh, yeah, no doubt. I mean, yeah, cause MMT is Dave Asprey. I've met him a few times at his conference and stuff. But yeah, I mean, 212 was like that for me too. It was like, cause the first, I would, I went every year and Tim, Tim Ferris was the first year.~
+
+~It was like Ryan Holiday. I mean, all these people, I just thought I was in the wrong room and they kept inviting me back every year. So I was grateful, but I didn't, I didn't feel like I deserved it. So, man, we all go, we all go through the same thing. I went to something similar. Yeah, it's it's, Don't feel, don't feel different.~
+
+~I mean, don't feel like, you know I, I, I think most people in go through that. I definitely went through that for sure. Well, good to have you here. Hello everyone. No, absolutely. Yeah, it was, it was, yeah. Yeah. I'd love today's topic is really on OpenAI's operator and deep research. And I've been doing some really cool testing and holy shit.~
+
+~So every time I come to these, I was like, I'm like, Oh, I'm going to show you something cool. Today is something like ridiculously bonkers. So what I'd love is maybe what you know so far, if you've used it, does anyone have a chat GPT pro account? I think it is, is what you need to use. And has anyone heard of operator or deep research?~
+
+~If you could. Unmute yourself. I'd love to hear hear your voice. Give me some feedback before I just start jabbering away. I mean, we, we use the we have the teams account for the company. So everybody uses that, but I don't think it has deep research in the teams version. So I was looking at just upgrading to pro to play with it, but I I don't think they've opened it up. ~
+
+~That feature to the teams yet. So so I don't know how that works between the two. I think we have to switch switch accounts or something like that in order to do the pro. I'm not sure. Yeah, I'd love to know what the teams look like. Because I was, I've been, I was debating because we've got. We've got pro account.~
+
+~We've got like three pro accounts. Sorry. We've got three plus accounts of pro account. We've got Claude pro accounts. We've got a Gemini pro accounts. We've got perplexity pro accounts. And I never really got into the teams cause I was wondering whether it was useful. How are you finding it? Cause we've just got multiple.~
+
+~Plus accounts rather than, you know, teams with, is that useful for, for team? It is because, well, a centralised billing is nice because what happened was I'm still fighting because we had a bunch of plus accounts on people's credit cards and that we're still trying to get them all closed. And because they're all separate billing.~
+
+~So we now with team, we could centralise the billing and then we could just add out, we just add licenses, people, and then it just goes into one billing. So it's easy to manage that way. And you also could see if people are using it. You know, and then that kind of thing, but I think it's, it's basically the same as plus just in a team, but you also can create your own GPTs and share them with each other really easily and stuff.~
+
+~So it's got some other features that are nice. Yeah, got it. Got it. Thanks. Anyone else with any input on, on operator or deep research, have you heard of it? Do you know what we're talking about? Have you tried it~
+
+~team? I wasn't loved as a kid, so any interaction would be great.~
+
+~No, for me. No, okay, that's no for everyone. I've heard of it, but I haven't used it or tried it. I've heard about it and how it's supposed to work, but I haven't seen it or tried it myself. Okay. Okay, cool. Just so that I know where to begin, so let me just share my screen and. I am obviously in India right now.~
+
+~A lot of you who have attended the past sessions know that I'm here next week. I'll be in London and I think what's interesting with, with with chat GPT is that there's obviously some features available only to us. So what I have done is right now I am connected to a VPN and it kind of thinks that I'm in the States.~
+
+~So that's how. Operators working for me. So if you get an account, if you're not in this, if you're not in the States and you're like, Oh, should I get a 200 account? Is it worth it? It's worth it. If you have a VPN because you can use operator, but I think deep research for sure is available without the VPN.~
+
+~So irrespective of where you're at, I think, sorry, not irrespective of where you're at. ~~I feel Europe still doesn't have it. I'll find out next week. Australia, Canada, U. S. Definitely has deep research.~~ But ~~today, we'll talk about two things. We'll talk about operator and we'll talk about deep research and, and I got to say, while operators cool, deep research will definitely make risk research assistance obsolate.~
+
+~And I'm not even, it's not even I'm not, it's not even. That's not even an over exaggeration.~~ ~~I feel that's like something that's going to happen really soon.~~ And I wrote a thesis. So I know what, what, what it goes into what goes into doing literature review or research before you write a thesis.~
+
+~So it's like. This just takes all that out of, out of the equation. So first this is the website that you go to, openai. com. Just look for operator is what you're looking for, but this is the, the, the website. And it'll show you, basically tell you what operator is all about. And this is what has been making the big headlines.~
+
+~One thing to really know is that everyone's talking about agents.~~ I saw someone, a really good friend of mine, by the way, yesterday on his story say, Oh, we made three agents in 25 minutes. You are not making agents. You're making an AI that does a task. An agent is hands off, independent, does its thing, comes back, it's like a team member that you can just tell, can you go and do this?~
+
+~And it does that~~. An agent is not what people are calling. I think the marketing ploy right now is like everyone's calling these new names and people are buying stuff. So just ~~be aware of that~~. The thing about Operator and Operator did exist. So Claude Anthropic actually released a version of this, and I tested it.~
+
+~It was great before, but it was very, very tech heavy, so it was not easy to use. So instead of reading all this, and you can go and read all this if you want, but if you go to operator, chatgpt. com is the link for you to go to. And this is what it looks like. It looks very similar, but it's an entirely different interface.~
+
+~It's got none of the earlier things that that you have in ChatGPT, so it's got an entirely different interface. So in here you can do a bunch of different things, specifically like dining, delivery, and very specific, obviously, to the U. S., because of delivery and other things, local services. Shopping, travel news, but I'll show you what I did.~
+
+~Actually, what we'll do is let's, let's do something like~
+
+~I'm too scared to find out what the latest coming out of the White House right now is summarize, let's, let's, let's do that. Summarize the latest news latest in AI news. I'm going to give it context and say, these are my, this is my audience. Just a copy paste of who I am. If you don't know about this, this is we did this in, in, in, in last month's training where we did IMX who helps Y achieve Zed. That's literally what that is. And I'm unique because, so I help founders who build something amazing turn their genius into AI powered systems.~
+
+~People call me the amplifier because I take what makes you special and help you scale it. We did something very similar. but it's basically that I'm giving it context and I'm saying, okay, we'll summarize the latest AI news, but this is who I help and this is who I am.~
+
+~And if you look here, it's actually doing its thing. It's going, it's gone and found. It's gone and looked for news and I'm my hands are here, obviously. So it's doing it's it's scrolling. It's using image recognition to find where it should click. It's reading. It's doing all this at the same time while I'm so, you know, I don't have to do anything.~
+
+~So, on the left hand side here, it went, all right, the latest news from from the access highlights is that 3. Which actually is creating a lot of news around the world, primarily because. Primarily because again, we haven't tested it yet, but they say that it's breaking all, all ELO scores and ELO is how you measure human intelligence. ~
+
+~So obviously it is, it is right, but I'll show you some other things we did at Operator. So I said that I'll be in London next week. So I was like, well, I'm going to be, I'm going to be in Liverpool on the 6th of March. Can you find me two tickets to the game at Anfield? And then it did its thing.~
+
+~So it kind of worked for 42 seconds and said, I checked the fixtures. There's actually no match on the sixth, but the closest ones on the eighth, would you like tickets to that? And I said, yes. And then it did its thing. I'll show you what it did as well, because you can, you can I think, yeah, so you can, you can go back and see how it, it, it's operated.~
+
+~Now there are a few things to worry about here, obviously that, you know, it has control over your browser. But it's very much in like a Faraday cage. In the sense that it only controls that part of the browser, but it went and did that. And then it kind of went tickets are available with open. So it kind of told me when to register.~
+
+~Go here. And it did all that. And I didn't have to, like, go and search and find and do do all that. The other thing I want to show you, which I thought was really cool.~
+
+~Yeah, was so I just wanted to find out what was happening because the, the, the, the, the event I'm, I'm speaking at or booking my tickets and they were, they were talking about some they were talking about prices and stuff like that anyway. So I was like, Oh, let me do this research. So I was very specific, by the way.~
+
+~I'm going from going to Manchester. And I'm a, I'm a Qantas gold. frequent flyer. So I was, I was like, Oh, I wonder whether that would change the input. And here's, what's really interesting. So it started to do its work. And then it got to a point where it was like, I encountered a capture on the Skyscanner website, which is preventing me from continuing.~
+
+~Can you take over? And so I took control and then I and I went through this capture and then gave control back to operator. Okay, so that was really cool. I thought, I thought that they didn't stop and say, Oh, I can't do it. I can't do it. It's done. Like, you know, I got this problem. It kind of went, you can you take over and, and, and, and then I'll take over from you.~
+
+~So then after it took over, it found Qatar Airways, which is. Which is like, there are lots of flights from here, by the way, but Qatar Airways allows me to use my Qantas code on, on the flight. So, I found that, I found that super interesting, and, and, and it did that really well. So now, also, this is, I'm not in the States, so I would assume that someone in the States would find this even more useful because of the other things it can do.~
+
+~So that's Operator. I think it's cool, I think Operator's cool. I don't think it's as good as deep research and I wanted to show you this. This is like a very famous curve. It's called humanity's last exam and we're talking about when, when, when do we get to humanity's last exam and you can see the curve here.~
+
+~It's, it's, it's, it's really stupid that the curve and the quickness of how you're talking about April. 2024 to April 2025. This is only a span of one year and this is how we went. We've even forgotten that 3 existed. This is starting from 4 and and you can see how quickly this has taken off and now deep research is up here.~
+
+~So this is literally This is like, I don't know. I'm, I'm blown away. I'm absolutely blown away by, by, by that. So I'll show you what to do. Go to chat. openai. com or chat. com. We'll take you to your, to your chat GPT and then I am a pro. So I suppose this deep research will come up in here. Now I want to show you a couple of things before I go and do Actually, what am I do instead of instead of that?~
+
+~Maybe we can use someone as an example that's in here So i'm going to just stop that. So can I get any can I get you someone as a hot seat if you don't mind? So what I want need from you is this is who I am. This is who I help This is the outcome I deliver and this is why I'm unique. So if you can give me that, I would love to use you as a hot seat and, and use operator and do some research market research on you.~
+
+~If that's cool. Anyone, anyone up for that? ~
+
+~Come on, boys. Awesome. Nobby, can you put that in the chat if you don't mind? I help X who does Y achieve Zed, and I'm unique because ABC. ~
+
+~So while Nobby's doing that, I'm going to share my screen again, and I'm going to show you some cool stuff. Is deep search or deep research part of Plus? Or is it part of operator? It's not part of plus it's part of pro and there's a very good reason. It's part of pro. Like, I, I, I, I, I, I, I, I. 200 a month.~
+
+~Correct. Yeah, I, I very I was very hesitant to upgrade to pro. And the reason why is you heard this because you were there from the start. I've got so many accounts. I've got so many plus accounts. I got Claude pro accounts. I've got all these accounts of like, ah, do I need the pro, but as a test to do this webinar and another couple of ones that I'm doing for Dubai.~
+
+~I was like, I should know what's going on and I should, I should test it. So I, I, I just, I was like, let me upgrade, let me test it. It didn't even take me five minutes for me to go, Oh, that's why it's 200 bucks. I was like, Oh shit, that's crazy. So let me not be here. Okay. Amazing. But before I, before I get.~
+
+~Anyone else with a question? Yeah, in my plus account. It says in deep search. That'll be different than deep research. Correct? And I'll show you why. So in here. So this is 1 that I ran yesterday and it was very like, in the sense. ~~Now, a lot of people were saying how prompting is going to die,~~ and I don't think that's the case, at least, at least for the near future, primarily because ~~it's so important to prompt correctly, to know how to get~~ now, especially with deep research, because you only get as you only get a certain amount to do in a month, you can't like just go ham on it and, and decide to just Go crazy.~
+
+~Even though it's 200, there's a certain limit that you can do. I'm not really sure. I think it'll be in that article that I started off with. So, you have to be very specific and, and because it goes and does all the thinking and it's, this is, this is very agent like. By the way, again, we're still not at agents yet, I don't think, because there's a certain way to define an agent.~
+
+~But this is very agentic like in the way it works. So,~~ if you don't give it the right instructions to start off with, it goes off in a whole different direction~~, and you don't want that to happen. So I was, I kind of went, well I just wanted to find me a hundred ways to improve and grow a video podcast, do this specifically for my audience, and I just kind of put who my audience is.~
+
+~ Now the reason I wanted to do that is because I've been putting out a lot of content on AI, and I think people have forgotten that I still do podcasts. So I was like, maybe I want to, I want to revitalize that because I think they both go hand in hand. with authenticity and amplification and business growth.~
+
+~So I was like, I want to first create this article. Okay. So then it went, okay. Yeah. Before I go out and head in a direction, can you please clarify these few things? So what's your podcast? You know, core theme. Who's it for? What's the stage? So when, assume this is for any business that has a podcast for branding, growth, whatever.~
+
+~And I've given it context. Then it went away and did research. And I want to show you the research here on the left hand side, on the right hand side because That is crazy. So it went and started to work on it. And then it searched for strategies for video podcast growth. It started to compile it. It was like, Oh, I don't think it, I don't think I have enough yet.~
+
+~It's searched for more strategies, plotted to piece it together. Then it found these different areas based on its initial research. And then it went, okay, now I'm going to find stuff from each of these areas. Then I'm going to find stuff about YouTube podcasts. I didn't do any of this stuff. I let it be, and it just did all this for itself.~
+
+~And I'm going to show you how that works with Nobby's example. It went and gathered all the details. There's a whole bunch of things. I'm talking about five minutes of work, found 13 resources, and then it made this. A hundred strategies to grow your business video podcast and literally a hundred and it, and it organized it pre launch with sources.~
+
+~So you can literally go here and go, okay, this is the source, this is more details. And it's like, it's, it's, it's absolutely insane because not only did it do all that, it followed my custom instructions that was inside my custom instructions on how to write. And how to present all this. And that is a crazy article for five minutes.~
+
+~Can you imagine getting someone to write this for you with all those links? Can you just think about that? That is crazy, right? That's absolutely blew my mind. So then I was like, Oh, that's interesting. I wonder if I give it more direction, whether it'll be even better. I don't know. Holy shit. So I gave it a similar instruction, but I was like, wait, can you please?~
+
+~Do this specifically from wearepodcast. com. I've released over 350 episodes. This is where you find it. It can be found on all Apple podcasts or Spotify. I'm sure you can find a hundred ways to grow a podcast only from these episodes. Please be specific. And then I gave it similar instructions of who my audience is.~
+
+~Again, it asked me for clarification. And then it went ahead. And this time it worked for 15 minutes. And found 49 sources. And they were all from my podcast. All from my podcast. So now this is an article that links to all the different parts of my podcast that I've already spoken about how to grow a podcast.~
+
+~That's crazy. That is hands off. I didn't need anyone. Now the biggest, the biggest gap here for me right now. Is I had given all my stuff away to my team, so I don't even have logins to my website and I'm asking yesterday. I sent a message on the team on the thing. I was like, can I have my logins back?~
+
+~Because I want to post this. And that's the block. Like, can you, that's a, that's crazy. The block was never posting. The block was always, ah, it takes so much time to create. That's not a thing anymore. And this is so amazing. This is absolutely mind blowing. So let's do one of these for, for Nobby. So, Nobby, I'd love for you to, Unmute yourself and I'm going to copy and paste.~
+
+~So let's, let me ask you, so if you help people manage their money, who are these people? So predominantly the people I'm looking for are more the affluent CEO white collar. People who've got a higher income and can afford to pay the premium for the program. Yeah, but this would help. So, for example, if you were to create, let's just assume you're, you're, you're, you're writing for an audience and if they can afford you, they, They get into the program.~
+
+~If they can't afford you, they can read the thing and get value out of it. What does that look? What does that thing look like? Well, actually, I have another program, which is a step down. It's the core functionality of the main program that they can go and buy, which is on the cheaper end of the scale. So, and the difference that we're talking about is like 300 bucks compared to 3000 bucks. ~
+
+~So the ones who can afford to pay the three, three, three and a half thousand, and the ones who can't afford it can get the core functionality for 300. What about, what about if they, they can't afford it? What, what can they, so for example, what I mean by that, okay, is you're talking about the CEOs who have disposable money and then maybe someone below who has a bit more disposable money, but what if someone's starting out to get to a point to get disposable money to afford you?~
+
+~Can you, what could you create for them to, do you see what I'm trying to say? Okay, so the place that I start with them is I give them a free report. So whenever you're going to do anything financial, you've got to hand over your, your financial details of income and expenses and debts. So I get people to put that into a form.~
+
+~It prints out a free report. It says, this is where you are. This is where you could be. And that basically then tells me, tells that person, do I want to be in or do I not want to be in? For the ones who therefore don't go to the next step, it's basically, well, I can see that I can be better off. What do I need to do?~
+
+~I don't actually give them anything. It's just a general stuff. Spend less than you earn and pay the highest interest at first. You can't do more than that. So you, you said here, what makes, what makes my program unique is that it was created for women because of women. Did you not complete that or? No, that, that was basically where the idea came from originally because I was always being asked by women they'd say, I don't want to know about financial planning or insurance or investment.~
+
+~I want to know how do I manage my daily money because they were running out of money before running out a month. Cost of living was going up, but incomes were remaining stagnant. And so they were being expected to do more at home with less money. And you know, that's. In most families that just leads to stress, etc.~
+
+~So they were asking that question, how can I do more to manage my money and the simple answer was spend less than you're going to pay the highest interest at first. ~
+
+~So, I mean, it's not rocket science. That information's been around for a long time. In essence, what I've built is the better mousetrap. So, a budget is the basic mousetrap. And what I've created is the better mousetrap. Because if budgets work, there'd be no, no reason for a better mousetrap. I would encourage you to change your languaging around your audience.~
+
+~Because I would say that that comes through in how you market. Like mousetrap, you know So, think of them as Think of, of, of you being a guide to helping them along the way, rather than trapping them into, you know, just, just something that I noticed in your language. That's, that's all. I don't use that conversation.~
+
+~It's only here that I've ever basically said that. Yeah, yeah. So I don't say this sort of thing in front of customers, making them feel as though they've been trapped or something. Yeah. Help them manage their money. So this is something simple, right? Can you create, so the reason, so you're talking about master, maybe I'll, I'll, I'll, I'll talk it, I'll, I'll refer to it as on your website.~
+
+~If you had like this one solid article that linked to all these other places, then they. You know, accepted your links. And then this article grew in. So when you search for 50 tips for women to manage their money, who before the, you know, that kind of stuff, so for you to write an article like that.~
+
+~It would have taken me a long, long time, it would, you know, uh, Oh, I didn't see. So I did that without deep research.~ [00:00:00] So this is what happened. I didn't click the deep research button and it gave me 50 tips. Great. Let's do that ~ ~with deep [00:00:10] research. ~I ~
+
+~mean, I'm playing around with AI every day and I'm, I'm putting articles out on LinkedIn and, and Facebook and everything. Can you answer these questions for me, Nobby? ~What's the tone you prefer? Conversational. 
+
+Then what would you like the tips, would you like them categorized? Not as budgeting. What I do in [00:00:20] AI is I tell it to make it inspirational, aspirational, and transformational. 
+
+~Ah, so categorize them as, say again, inspirational? Inspirational aspirational, and transformational. ~So in other words, we're taking them from where they are, which is a bad spot, to somewhere better. Do you want any [00:00:30] references to statistics or studies to add credibility? Yes, I'll say yes. Should the focus be on quick wins or a mix quick wins?[00:00:40] 
+
+Quick wins, but I also concentrate not, and that's where budgets fail. My program actually goes through to age 100, so it actually shows them the future [00:00:50] rather than restricting them to the money in, money out, that's all I've got left, life is over. ~ ~That's that's great. The specific is for you and your people.
+
+I'm [00:01:00] showing you how if you want to create something useful for your people, this is the way you would do that. And this is for anyone ~in here. So I'm just using you as an example.~ So what happens right now is we kind of went, ~ ~this [00:01:10] is who I am. This is what my audience is, is how I'm different. What I want to create is something that I can keep pointing people to, and I think we should all have that.
+
+~Not, not as a, not as a~ not as a way to capture [00:01:20] people, but it should capture people 100%. There should be maybe a an email lead capture in there ~ ~for sure, but it should be more to help them [00:01:30] along their way. So maybe in 90 days and 60 days in a year, in two years, they become a client. So what it's done is, ~ ~If you see on the right hand side, ~it's ~it's thinking, right?
+
+So [00:01:40] it's doing it's first arranging the articles into three sections. It is outlining ~ ~the high impact actions like salary negotiation. Is [00:01:50] getting data on women's financial confidence. See, that's fascinating for me because, so this is very agent like behavior. ~Still not,~ still not an [00:02:00] agent yet. But agent like behavior.
+
+So I want you to understand the difference. Then it searched for women financial confidence statistics. It found that that's [00:02:10] crazy which I didn't know myself. And, and so this is what ~this this~ is doing is it's fine. Even for someone who knew things about podcasting, for example, when you saw [00:02:20] my example. There were things in there that it would take me a long time to get to because I'm so in my thing, you know So then [00:02:30] here I'm noticing that less than half of women over 25 have retirement savings compared to men's median savings.
+
+Additionally, 67 percent of women fear outliving their savings, [00:02:40] a pressing concern given their longer life expectancy. That's crazy. So just think about the thinking here, right? This is why. The [00:02:50] 200 makes so much sense because it's taken over thinking~ Scott, I mean, I'm aware of all that stuff. Great for you.~
+
+~You're not the person this is for. This is for your people. Yeah, yeah. So ~it's done all that. Again, you might know all that, but for you to [00:03:00] put this in an article, in the time that it's doing it right now, in the way it's doing it, ~is, is,~ is not possible. It's not humanly possible to do that. ~So No, but I've touched on all of those things in the past in articles.~
+
+~Good for you, Nobby. And I don't mean to sound like a smart ass,~
+
+~I just know my stuff. ~So, I would assume that is [00:03:10] basic, that anyone who has a business knows their stuff. I think that's I feel that's a that's like a restaurant saying I serve good food. [00:03:20] You're supposed to it's ~ ~It's like a, you know, a given. So I wonder whether ~you're, you know,~ if we gave it for women in a particular age group, whether that would even change the [00:03:30] report even more. 
+
+So the target audience originally, the avatar was a 47 year old woman recently divorced. With two teenage children looking back on the past, having nothing, [00:03:40] looking forward to the future for the next 20 years, how am I going to cope? What am I going to retire on? I've got nothing to start with. And that's basically a situation for probably [00:03:50] around about 50 percent of women going forward. 
+
+And my advice to them all is buy yourself a camper van so you have somewhere to sleep.
+
+so it depends on where you're in the world, obviously, and it depends on how much ~you've You've~ [00:04:00] where you've lived. But in Australia, it like living is it's ridiculously easy coming from a place like India. Because, ~you know, I went when I was ~I got to [00:04:10] Australia when I was what, 21 ~ ~and everything was just so easy.
+
+you see the difference is a huge difference, obviously, in what lifestyle looks like. And also in terms of support, like the Australian [00:04:20] government, Is ~ ~compared to a lot of other governments, extremely supportive. ~So yeah, I,~ and I see a financial advisor for two and a half years.
+
+So I used to go into homes and meet people who [00:04:30] literally would put all their savings into something and lose it all. And it was just like heartbreaking. I couldn't do it. I just couldn't do it. I did it for like two years and I was [00:04:40] like, ~ ~I can't do this. It's too, it's heartbreaking. ~ ~I did it for 20 years.
+
+And I love what I was doing because I was helping protect families and helping them for their futures, which is [00:04:50] all well and good. I mean, I'm, you know, I'm not ranting on about financial planners, but at the end of the day in today's economy, women find it very difficult to find a place once a [00:05:00] relationship breaks down, especially if they've got kids trying to find a home. 
+
+Maybe not where you are, but in the main cities, ~it's ~it's a big deal. So ~there's a lot of I was going to say influence.~ There's a lot of stuff on women about [00:05:10] being able to cope after divorce and relationships. I mean, look at what's going on. Not that we want to start going down that track because that's got nothing to do with this. 
+
+~But ~but yeah, there's women do have at heart, so [00:05:20] they're looking for help. ~I think there's a focus of International Women's Day coming up in March. So, you know, there's good opportunity for posting stuff there. ~Yeah, I mean, I think one of the most underused ~ ~tactics in business is SEO, like on your [00:05:30] website being found by a search term.
+
+And what would people normally search for is I don't know. In this case, ~I'm,~ I'm running out of money before the month gets [00:05:40] over and I need some help on how I can make that you know, not a catastrophe or something that effect maybe. So you're [00:05:50] trying to come up in a search for all those searches that your people are trying to.
+
+And not only that, in your email [00:06:00] signature, you're saying, if you are a woman and want 50 ways that you can actually manage your money right now, here's a link. So, because everyone's clicking on that [00:06:10] link and because people are being referred to, hopefully, all these references that are in here, when you link to them, they will accept the link and then that article [00:06:20] grows in value ~on, on,~ on the internet.
+
+Then this becomes a very valuable. piece of real estate on your website. And that's what I'm trying to create here for you. And [00:06:30] you've got to create that for your audience. ~And, and so, so,~ so it did that research. If you look, it took seven minutes 22 sources. And it did [00:06:40] it according to the three categories.
+
+It gave you references, 
+
+~which is.~
+
+So this is the inspirational piece. Educate yourself. So this is obviously taking my voice style and that's why [00:06:50] it's writing it like this. So you'll have your own voice style. 
+
+~Crazy. And, and this might be,~ this might be tackle high interest debt first might be like an obvious thing. It's not obvious to everyone. And ~I've,~ [00:07:00] I've seen that in person. That's right. I mean, you would tell them, you would say, Simple answer is spend less than you earn, pay the highest interest debt first.
+
+And they would look at me as if there was something [00:07:10] I was keeping back from them. It can't be as simple as that, but it is. ~ ~And this happens with a lot of people. ~ ~I mean, everything you're pulling up there is just, ~ ~for me, [00:07:20] generic. ~ ~Yeah, but it's not for you, ~dude.~ You're not the audience. I understand that.
+
+And that's the mistake that we make a lot, is that we think ~it's for,~ it's not for us at [00:07:30] all. In fact, the more you can say. And this, I'm, I'm saying this, I'm talking about, I got this from [00:07:40] Gary who told me straight up that I'm not saying the same thing and repeating, because I think I want to be smart. 
+
+And ~I, and I was,~ he was totally right. Because I wanted to sound smart, I kept [00:07:50] changing because I've heard it so many times. But I've got to repeat it so many times that it's boring as fuck for me, but everyone knows to repeat it. They know [00:08:00] exactly what I am. They know exactly what I stand for. And that's as simple as that. 
+
+And in this instance, it's not for you to know. This is for you to create a resource. So ~ ~don't mix [00:08:10] the two things up. It's a very different reason to create this. ~ ~And this is only a start, by the way, and I thought this was, this was fantastic. To be able to create something like this. And this is just me, [00:08:20] you know using you as an example.
+
+Thank you for that, ~Nobby. It was,~ that was very, very useful, I think, not only for me but ~as a, you know,~ for everyone ~in here, I'm sure. Yeah, thank you. Scott, you have a question? Or anyone else have a question? I'd love to answer them. Yeah. Yeah,~ I ~just, ~correct me if I'm wrong, but [00:08:30] did you not say in your own podcast that you were sourcing previous podcasts and that your sample experiment in the last day or [00:08:40] two, it was pulling information from your own material.
+
+~Is that,~ did I hear that correctly? ~ ~Yeah, that was one of my examples. Yeah, 100%. Okay, because ~Nabi knows, and this is for all of us,~ I know, I have [00:08:50] moments of genius. And I also have a plethora of information. I'm working on something. I'm a little time crunched. ~ ~I could lose it. I can't find it. But what you're showing [00:09:00] us is that not only can you call all that information from the world, from all the schmies, yourself, I mean, your podcast, you've had [00:09:10] shows with subject matter experts on there, you.
+
+You could try to remember it and some of us are really good at that and some of us are terrible at it But this is [00:09:20] pulling it for you. Wow. ~ ~Yeah, I mean, there's your You're a podcaster. Sorry, you're a podcaster And if you increase ~your ~your viewership or your listeners by 10 [00:09:30] percent and then you go out and you attract a new sponsor ~ ~There's your business case right there.
+
+One of probably many where you can justify 2, 400 bucks. Boom, done. [00:09:40] Piece of cake is amazing. I'm not, I'm not with my own use case, but ~to your point, Scott, ~ to your point, ~Scott,~ if you noticed, [00:09:50] like when it comes up, nobody's like, Oh yeah, I know that. I know that when it comes up, you know it for sure. Like no one's denying~ the the.~
+
+The expertise or the [00:10:00] credibility, ~it's,~ it's more like,~ it's more like,~ can they all be in one spot or ~can,~ can it be ~if,~ if you've already, ~like, if, if nobby already~ has podcasts out or already [00:10:10] has articles written, then just create this. from those articles and just kind of reference them. That's a way to do it.
+
+But again, [00:10:20] this is a very specific use case. And the use case is to create ~ ~a big guide that becomes the center pillar for your audience [00:10:30] to always go to. And not only do they go to it, they tell other people who are the same to, Hey, this is this great, this is great resource that I think you should check out.[00:10:40] 
+
+It's as simple as that. It's nothing other than. ~ ~This is my spot, my real estate ~on, on, on the, on the,~ on the internet. And then you can start creating social around it as well and start to [00:10:50] like really, really boost that. So yeah, good point. Thanks for showing us this. And you know, I got a couple of newsletters I listened to, and I mean, I'm not the power user that [00:11:00] you are, but I am.
+
+So grateful. And I mean, it's a moving target. That's moving light speed. You, you bring stuff up every week [00:11:10] and I just think, ~ ~thank you. You know, and then I mentioned it to my peers who are all developers, engineers, they're smart people, PhDs. And they're like, where are you getting this from? [00:11:20] Read Amplify AI.
+
+Talk to, talk to Ronsley. No, I'm really grateful to be here. Always. Thank you, Scott. You're making me blush, [00:11:30] even though, you know, you can't see it on my brown skin. Yeah, you were beat, you were beaten as a child and never loved, right? So, we gotta, we [00:11:40] gotta fix you up. ~Thanks, Scott. Scott, the other Scott.~
+
+~How are you? Good. Good. ~I wonder if that's really interesting. Like, how it does the does the research is like, have you played around with it yet? Whether or not you can give it your own context or your own private files to [00:11:50] research. ~I didn't~ I didn't give it my private files, but I did give it my website and my podcast.
+
+So I'm thinking about, like, I'm thinking about, like, in, like, in our [00:12:00] company, we have, like, you know, we have things behind a firewall and then if you expose that and say, look at nothing about onboarding new employees, right? And like, they don't know what to ask. It's like, hey, can you [00:12:10] build a build an onboarding plan off of my all the data that you have out there? 
+
+Yeah, you could do that. I, I would be, again, this is a privacy thing that I feel is really, [00:12:20] really important to address. So ~the, ~the US companies do an amazing job at marketing themselves as the credible people. And an amazing job at pointing at the others [00:12:30] who don't look like them as the ones that are not doing the right thing, right.
+
+~But I want to, I want, it's, it's,~ it's across the board. I feel this, I'm tool agnostic. That's why I have [00:12:40] all these different accounts is ~I, I, ~I don't propose any tool. I think they're all, the, the goal is intelligence and I don't want to be an intelligent being that [00:12:50] fears intelligence. I just wanna, you know, intelligence is intelligence.
+
+It's just doesn't matter where it comes from. So if there's stuff that is already [00:13:00] behind a firewall and there's a reason it's behind a firewall, I would not put it here. Just I wouldn't. So that goes for any financial stuff that goes for people's data [00:13:10] that goes for even if you remove their names and put their data, that's just not right.
+
+And please don't do that. Even if you've done it in the past, just assuming never happened and just [00:13:20] don't do it again. ~But,~ but on the other hand, ~if you did some,~ if you took this same tool and say, look at all the onboarding stuff that exists, this is [00:13:30] my this is my business. This is where my people are.
+
+This is how, ~ ~you know, these are some of the steps that we use to onboard them. Can you create for me a more comprehensive onboarding [00:13:40] process? ~ ~That's different. ~ ~So it makes us stop. Yeah, I think a lot of the questions that we come up with is like, I think about like, all the, ~you know, like, all the ~training sessions we've done internally and like, on our products and [00:13:50] things like that, that are just, it's hard to like, get that knowledge into somebody who's starting out.
+
+So it's like, ~how do you, ~how could you aggregate all that, like, creating internal, like. ~ ~Tools that look at your that [00:14:00] you can use internal. That to me is really interesting. I mean, that wouldn't be exposed to me. I know there's open source models that you could possibly use to bring that in house to avoid that.
+
+But I mean, your points well taken. If it's like, [00:14:10] as soon as you expose, you're putting it on the Internet as soon as you put it in the model. ~I mean, it was, you know, ~there's always that risk. So, but it just seems like that. That's a huge, a huge win. If you can figure out ~how to~ how to firewall that keep it.
+
+[00:14:20] Oh, you can you can. ~I did. I did.~ I did a training a free training ~at the start of the month.~ Like not last one, the one before that on, on deep seek and how to install it locally on your computer and [00:14:30] on your local computer, you can do what the fuck you want. ~ ~You can like. Literally cut Wi Fi and your computer is a Faraday cage and all the [00:14:40] intelligence lives here and you can put whatever you want in it ~ ~and it'll do ~and, and, and,~ and we installed DeepSeek R1, which is the reasoning model. 
+
+So, it [00:14:50] is pretty powerful for a local model that you could totally use. Yeah, and I would highly recommend you looking, I would highly recommend any company ~ ~that has [00:15:00] anything behind a firewall ~ ~to explore local models on their own computer and not use open AI or Gemini or Deep Seek or even [00:15:10] Deep Seek.
+
+I wouldn't use on the web. ~ ~It's very different. To having it on your computer, and that's the difference. I can't have open AI on my computer because it's not very [00:15:20] open. ~Right. Right. ~Deep Seek is open. So Mano, ~I wish,~ I wish you could, ~I wish you could unmute yourself and, and~ tell us he's just bought the 200 chat GPT and he's doing [00:15:30] research right now, which is crazy because he's been doing this dot board of clarity.
+
+And I know because Nat has been telling me that and Mano, ~you've,~ I know you can't respond back, but you, [00:15:40] you have your dot board of clarity and you have who your audience is. So use your audience. ~ ~And from that audience, multiple [00:15:50] articles on your website that become searchable and findable.
+
+Because you have a very specific niche, ~if I remember correctly. I met Matt a long time ago. Yeah that's cool. All right team Scott that session was recorded and on school. Oh, yes. Thank you Scott. I forgot I did that. Yes, it is. It totally is. So yeah, go, go and get that. ~All right team, I love doing this by the way.
+
+So I love that you're here. Thank you for, [00:16:00] thank you for coming. Thank you for playing. I think next week, I've got some really cool ones coming up. How to use AI to transcribe everything for free. ~You can,~ you don't even have to have a transcription paid service [00:16:10] anymore. I've got that coming up.
+
+I've got a few other things coming up. ~Next week ~I've got how to create a whole content ~ ~calendar ~and,~ and write the content just like you. ~It's a, it's a paid workshop, but it's like a hundred bucks. It's super cheap and it's totally accessible. And, and you, you know, it's more,~ it's more about you [00:16:20] getting the results.
+
+~And I, I know that the ones that attended the. The, the, the training last month got immense value out of it. So I'm very encouraged to keep doing these. So look out for that. It's on the school thing, but if you need anything, just send me an email and I will, and one of the team will, will respond. ~All right.
+
+Thanks team. Talk to you soon. Have a good one. ~Cheers guys. Cheers. Big years.~
+

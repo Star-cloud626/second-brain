@@ -1,0 +1,107 @@
+p2
+===
+
+Ronsley Vaz: [00:00:00] So L Marina is, ~is ~a really good one to look at ~what, what,~ what are the different ones out there? But again, you know, you don't have to look at all of them. gotta show you some here that I think are really cool, ~that are,~ that are [00:00:10] not lms, but lms. Because most ais now are, are LLMs. This is ~gly~ glyph app.
+
+And it makes some really cool stuff like, memes. [00:00:20] And so for example, if you wanted to create ~ say,~ say a meme. That looked like this. The startup kit meme about AI in business. As an [00:00:30] example. ~Oh, it didn't like me.~
+
+So I've run some of these before. ~Like, I also to make a, a meme around ai that's not as good as some of these. Oh yeah.~ So I may ask it to do a meme about ai where Open AI was complaining that Deep Seek used their models when open AI stole author's [00:00:40] data to train their models. So it made this meme, which again, is, ~is ~really cool because even though the, some of these words might not necessarily be right, ~I can, you know,~ the team can [00:00:50] take this meme and put it into Canva or something and edit the words out, but they don't, don't necessarily have to make the meme from scratch, and these are common memes that [00:01:00] you can use. For example, this one ~got, got a lot of, ~got a lot of engagement on social what, ~what, what~ my friends think I do, what my parents think I do, what my boss thinks I do, what society [00:01:10] thinks I do, what I, ~what I~ think I do, what I actually do. So you can create this all, you know, in your own field, especially if you are a real estate agent.
+
+~You know, it, it~ it is like off [00:01:20] left field a little bit, but it's still content that gets engagement because people understand irrespective of where you're at, you know, to make these kind of things. So if you had to do this on your own, it would've taken a [00:01:30] long time. But if you go into glyph, you can pick your meme and then give it context and it'll come up with some, ~some ~really cool things like the AI [00:01:40] consultant starter kit.
+
+so if someone's an AI consolidate, they totally understand, you know, let me explain how this will 10 x your ROI. It's, it's pretty funny actually. It's, it's pretty good. [00:01:50] So, ~gif ~gly app is, ~is, is, is~ one that I've come across that I've thought is, is pretty cool. You can choose whichever one.
+
+You can choose memes and images and stuff like that. Replicate.com [00:02:00] is a really nice one. ~It's, it's, it's,~ you just have to put a credit card in, but I don't really think that it's much.
+
+Yeah, just have a look like I view the total of 78 cents, you know, and I've [00:02:10] generated a lot. if you're gonna explore, there's a whole bunch of different models that you can use. And so you can go and create videos, you can create different types of [00:02:20] images.
+
+You can obviously generate text. There's a whole bunch of different things. Transcribed speech. Actually this is really powerful, the one in replicate.com because I've used [00:02:30] some of the image generation in here and I think it's really, ~it's really~ great actually. ~I'm gonna play around. ~But you can see all the different things that you can do here.
+
+You can, create 3D stuff you can [00:02:40] use. audio, can remove backgrounds. Obviously background in it's crazy how to remove backgrounds. Used to be, you know, such a thing that you had to pay someone in Photoshop to [00:02:50] go and remove backgrounds that is now just a single click in, ~in ~Canva.
+
+So how that has changed even transcription is another example. I, I use this [00:03:00] a lot because we've been making podcasts for people and brands and businesses for maybe 12 or 13 years now. And not long ago we had seven [00:03:10] transcribers on our team full-time, and we had 14 content writers who don't exist anymore, which is crazy.
+
+So we have zero [00:03:20] transcribers. And ~that ~that's obviously a, ~a, a~ space that is changed quite drastically. So, replicate is great. You can do a whole bunch of different things and replicate. [00:03:30] Then ~spoke about Cursor. Catherine uses Leonardo. Yeah. I, I,~ Leonardo is good, but I highly recommend Midjourney.
+
+My God, the, ~the, the~ results I've been able to get in Midjourney
+
+are really amazing.
+
+~Who's used Midjourney here? Anyone? Abbie? Yeah. Have you put out any of the, of your images using Midjourney or where have you used them? ~I do posts fairly regularly in [00:03:40] LinkedIn. I. So, I, I come up with ideas there quite often. I'll do the post in chat GPT and say, give me a graphic that it pulls in from Dali.
+
+And if I'm [00:03:50] not happy with that, then ~I'll pull in~ I'll create one in ~in ~Midjourney. And you'll, ~you are~ obviously, you got a Pro account and or you are using, is you using the free account? ~What, what, what are you~ just a free account? Oh, really? I don't do it that often. [00:04:00] Yeah. I don't use it that often.
+
+I mean, I don't use that often, but I'm still paying, which makes me think that I should go and check all my subscriptions right now. ~But~ as a financial advisor, I would tell [00:04:10] you yes, guilty, guilty. But I, I, I feel like mid journey, I've not actually come across a better image generator than, ~than~ [00:04:20] Midjourney. Just some of the things that it makes like. Wow. I want you to think about how long it would've taken someone to get this picture if they had a ~mm-hmm.~ Higher model, you [00:04:30] know, ~get the light writing ~get the right lighting, ~you know,~ then click all the images, then do the edits, and then finally give you this one image, how long that would take.
+
+~And, and, and,~ and a lot of these in mid [00:04:40] journey, what you can do is you can personalize to your, so you, I've got a certain style, and every time I use the minus, minus [00:04:50] p, which is personalized to my style, that's the, ~that's the~ command in mid journey that you give to say, generate this image, but generate it in my style.
+
+You'll see, see, this is, ~this is~ [00:05:00] my style. You'll notice that it's a common style. So if I put. this ~minus ~minus p it'll create to design, design me an image [00:05:10] based on offload busy work. Whenever you think I need to remember this, let ChatGPT handle it. And it created this really, great image.
+
+Some of the images that it [00:05:20] makes inside my journey are like ridonculous. And if you're not happy, you change it within five seconds. 100%. Yeah. They're really edgy too. And, and some of them are edgy and funny, you know, [00:05:30] that's your personality. So they're, they're really good. Yeah, they're really good. and obviously the better you prompt it, the more detailed you given it in the prompt, the better it responds.
+
+so [00:05:40] I actually made a t-shirt. and I wanted to put a caricature on it. And so I was designing these, caricatures, and then I landed up putting, I think this I think the one with an [00:05:50] R on it on my T-shirt. And I thought, ~I thought~ that was insane to go for uh, this one to go from, a cartoon or from a concept to a t-shirt [00:06:00] with a saying.
+
+It's like so quick and it's original, right? Mm-hmm. I don't have to like, worry about, ~you know, ~copyright that kind of stuff. ~So I thought~ actually what happened was, if you don't know who [00:06:10] Gar Seamus is, Gar Seamus is a friend and ~a leg, and~ the legend who started ComicCon. So literally he's the guy that started ComicCon, sold ComicCon, then [00:06:20] they didn't run it the way he wanted it to run, so he bought it back from them and then grew it into Asia and all these other places, and then sold it again [00:06:30] and like, and with, ~with ~rules on how he wants it to run.
+
+And I met him ~when I, I I, I've met him~ a few times, but I, I met him the last time I met him was in Toronto when I was doing my book launch. And we were [00:06:40] walking down the street and he was like, Hey, you know what? I would love to be able to get to a point where there's no middleman. It's just me creating comics and that's [00:06:50] gonna be my, ~my, my~ happy place.
+
+So I was helping him come up with, you know, some~ some.~ Comic characters, and this was such a fun [00:07:00] experiment. Like, look at some of these images are just wow, wow. Just [00:07:10] blown away. So we were doing some work then, ~and,~ and it was just so cool to like try these things. So Midjourney is really good for that.
+
+And and you'll notice if you see this style, you'll [00:07:20] notice that this is my personalized style.~ It, it just keeps re you know,~ you see the, ~the ~orange and the red and ~the, and and~ how it, ~it it ~represents that. I love how it does exploded views of something. So I've got this prompt that I talk [00:07:30] about, you know, provide me an exploded view of a mobile phone.
+
+So what does it look, you know, when a mobile phone's exploded out and wow. Like, wow. ~So yeah, I mean, you know,~ imagination is literally [00:07:40] your only, stopping point. It's, ~it's ~just how much you can imagine that, ~that ~you can create. So this is mid journey for images, and then I spoke about replicate as [00:07:50] well, which I think should be in the image category, but you can do a whole bunch of different things inside that.
+
+Now we mentioned poll [00:08:00] for LLMs, but then there's, ~there's~ chat LLM that you can use for that as well. So ~two,~ two of the similar ones. There's, ~there's~ Microsoft Copilot [00:08:10] perplexity is amazing. I highly recommend Perplexity if you're doing any sort of search, and I feel that, by the way, whoever uses Perplexity [00:08:20] will know that the perplexity search is better.
+
+Then the open AI search. However, the open ai, [00:08:30] deep research is so much in depth that, you know, again, at the start of this session, I was talking about how you should use [00:08:40] AI for all the things that were stopping you before. For me, what was stopping me was, or things that I wanted to do that I could not get, right.
+
+However much I delegated it. Actually, [00:08:50] maybe I didn't delegate properly. I, you know, maybe I abdicated and that's why I didn't get it right. So, I think in entrepreneurship, the more humble you are, the quicker you learn your lessons. [00:09:00] So for me, one of the things is, ~is ~the long form posts. So I've always wanted to build these long form posts and ~it's, it's,~ it was so hard to [00:09:10] collate and get it right and put it together, ~and now it's taking.~
+
+I would say it takes me a total of 45 minutes to create a long form post like this which would've normally taken, [00:09:20] I don't know, days to put together collate. So not only does is it, is it a one-time thing. I've, I've created a four part series and they'll come [00:09:30] out, you know, every week. And, and also this long form post, not only like, I can not only send it ~to,~ to a whole bunch of people and say, Hey, if you're [00:09:40] looking for 25 ways to grow your podcast here are 25 content strategies that you should use.
+
+Here are 25 audience engagement strategies that you can use. And I'm, and in the next couple of [00:09:50] weeks, you'll get 25 ways to monetize your podcast. And then there's 25 ~diff ~different distribution tactics for you to get results. But not only am I sending everyone to this one [00:10:00] spot that. They can get all these, really good tips, but also it is creating this pillar post with links to, ~to ~my content, [00:10:10] which are previous episodes that I've done.
+
+So if someone really wants to, for example, this one in particular, building audience engagement as a part one of the growth guide, [00:10:20] and it's like, okay, here are 25. Start by actually solving problems. And then if you want more, this is a whole episode that I've done with Ed Dale, that [00:10:30] someone can just go and click ~and, and ~so it's like not only is it creating a pillow post, it's creating an SEO worthy pillow post that now is getting linked to other [00:10:40] content that I've already created before.
+
+So for me, this is very useful and very powerful for things that I've been wanting to do for ages that I've just never gotten [00:10:50] around to doing it. Or ~if I've got,~ if we've gotten to doing it, we've paid someone money and it hasn't gotten done the way we wanted to do, so it never got out. So these are things that I'm implementing that I think that you [00:11:00] should really look at and see how you can implement.
+
+Because now this post already from the SEO, from the keyword analysis that we got, the analytics that we get from Google [00:11:10] is already ranking pretty well, and it's only been maybe a week and a bit that this post has been out. So, use AI for the things that you thought at one [00:11:20] time, Hey, I wish I could do that.
+
+And, now you can. If you just sort of focus, get it done, make sure you have a process to do it, and then keep repeating it before you get. [00:11:30] To do the next process. So don't worry about the new AI tools that are coming out, rather worry about these things that you can implement and execute and then start to get [00:11:40] results on.
+
+~I hope, I'm trying to,~ I hope I'm making sense about,~ you know, how, how I,~ how I~ I ask, I,~ I'm asking you to think about using AI
+
+ronsley. Can I ask you a question about, ~about,~ you're on many platforms and then you're [00:11:50] writing. So for example what you just mentioned, do you have a, ~a ~ronsley filter persona, voice? For each platform? Or did you [00:12:00] set it up, let's say, for example, on chat, GPT and you like it the most there? So you'll take everything raw that you've created, on [00:12:10] other platforms like Cloud, and then run it through your voice on chat, GPT.
+
+I'm curious about that or do you have it set up on each platform and you're happy with the results? That's a great [00:12:20] question. So I don't really think that I'm very happy with the results that come out of chat GPT. I've never really been. Yeah, that was just hypothetical. Yeah, yeah, yeah. Yeah. I, I understand.
+
+But [00:12:30] however much I have customized my chat, GPT or even the GPTs inside, actually I lie. ~Platform.~ So every, ~every ~[00:12:40] LLM has a backend, like a coding backend that is very dev focused. So for chat gt, it's, ~it's ~this platform dot,
+
+~platform dot what was it?~ openai.com. [00:12:50] And inside here ~you can~ if you go in the dashboard,
+
+you come down to assistance. You can make assistance in here that are [00:13:00] really good. Like ~I, I,~ I trust these outputs better than I trust the output coming out of chat GPT. Again, I think it's because of the system instructions that you know, are [00:13:10] wrapped around chat g pt that doesn't give you the results that you want.
+
+~This is,~ this is way better. So in here I've created assistance that I can call on, which are very powerful. For [00:13:20] example, this one is the Amplify AI book. If I, ~if I~ throw any instructions at this assistant, it'll take the instructions and return back for you, [00:13:30] where in the book I cover. Whatever I'm,~ I'm~ asking of it.
+
+So if, ~if, if~ you're trying to grow operations, then it'll go, oh, Ronsley has covered this in part one or part three of the [00:13:40] book. And on this page you can go and find how to grow operations in your business. So ~it's a, it's an, it's a,~ it's an assistant that's trained on my book. Then this, here's an assistant that's trained on [00:13:50] how I would like my mid journey prompts to be written so I can just throw anything at this and it'll return back a good midjourney prompt for me.
+
+And this is all in the backend. ~So,~ so [00:14:00] rather than me creating GPTs I create these assistants in the background. So I think this is really powerful, which again, I, I totally forgot to mention that. I think~ I, I, if you're any,~ if you're technically [00:14:10] inclined, then this is a really good place to do that.
+
+So, to answer your question~ Scott, ~I really like my voice. My voice is very accurate. When it comes out of [00:14:20] Claude, I haven't found that in other LLMs. However, if I'm using a lot of data, then I, ~then I~ ask Gemini to, collate that because it can [00:14:30] take a larger context window. ~Mm-hmm. And then ~so for example, ~that, that,~ that post that you just saw, which was, you know, the 25 ways to improve your Podcast or Grow your Podcast chat, GPT Deep Research [00:14:40] did most of that research.
+
+But then the writing part of that, the introduction and the bits in between were done by Claude because that represents my [00:14:50] voice better than what Chat GPT could. So, I think ~there's, there's,~ there's still an element of human checking involved which might not be too far away from, you know, an agent coming along and [00:15:00] you asking the agent to check how you check for your voice.
+
+But until that point, I feel like us going through it ourselves and going, okay, this is how we would check it, is [00:15:10] probably a good idea so that you can give those rules to an AI in the future.
+
+Wow. Thanks for lifting the covers on, you know, how you create that's really helpful for me. ~I. And I don't want to be greedy, but if I could just throw these out and you could maybe comment on them or defer later.~ But you didn't mention [00:15:20] video, so do you have a favorite video platform these days?
+
+And then just a side note, 'cause I'm a bit of a, ~a, a ~crypto guy. Your comic example for any [00:15:30] creators isn't blockchain the promise of getting rid of the middleman? And again, that can be, you know, we can do that in school in the discussions, but~ I'm,~ I just can't help but think in smart contracts, [00:15:40] you can get rid of all the middlemen, iTunes for music and, you know, Spotify and, you know, even, ~even~ buying a house or brokering a business, you can do it with [00:15:50] blockchain.
+
+I totally agree. I mean, I find the fact that they're paying bank fees an absolute joke. You know, absolute joke. ~And when I think about, so for some, for,~ for us. Our [00:16:00] largest bill are bank fees. ~By, by, by,~ by a long shot. And I'm talking about everything. 'cause Australia charges, me money when someone pays in USD and then charges me money to convert ~to ~[00:16:10] to from USD to a UD then it charges me money again.
+
+When I pay in USD out, ~it's a fuck.~ It's like I cannot stress enough how quickly I want smart contracts to come and [00:16:20] take over. Yes, yes. I feel your pain. I'm Canadian, so, and I'm in Mexico, so you know, US dollars always factor in and we get beat, you know, and we convert one to the other. [00:16:30] And I have begged businesses to work with, ~with ~crypto.
+
+It's like, pay me in blood in Bitcoin, pay me in Ethereum. You know, pay me in ~in ~[00:16:40] anything other than fiat. And some do, some don't. But yeah, it's coming. ~I,~ I think see that's, that's the thing with change is that people don't like change and, you know, you know how many middlemen [00:16:50] would lose their jobs if smart contracts came around.
+
+~Yeah. Thanks Chris. Good to see you. ~So I agree 100%. It's just depends on how, the people in power want it to operate, I [00:17:00] suppose. Video you mentioned asked video. Yeah, I, I think trying so is is a good idea, but runway ML is probably the leader in that pack. ~Okay.~
+

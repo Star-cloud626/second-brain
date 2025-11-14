@@ -1,0 +1,135 @@
+142
+===
+
+Ronsley Vaz: [00:00:00] Today 
+
+I'm gonna show you the most important skill. In growing a business, this is once you have your business set [00:00:10] up, the most important skill that you need to grow the business is to create standard operating procedures so that not only you can do it better, but others can do it better. And [00:00:20] today I'm gonna show you how to use artificial intelligence to do this at speed, to do this easier, to do this better.
+
+~And hopefully if my lights off s flickering, we can get this recording done.~ Come, let's learn.
+
+so in today's session, I have a plan for you. [00:00:30] I'm gonna talk about how I took a very, very complex task and made it into a standard operating procedure for the right people to follow or to exactly how I did [00:00:40] that. Actually, the example, I'm gonna start with that. So that's how you're gonna, I'm gonna start the session, then I'm gonna talk about how to structure your SOPs, where to keep them, how to store them, how to label them.[00:00:50] 
+
+And~ what,~ what is the best way to keep them? I'm gonna talk about the different templates that you require and how you've gotta look at your standard operating procedures that are three different [00:01:00] types that you've gotta create inside when you're making a standard operating procedures. I'm gonna talk about how to reverse engineer them.
+
+I'm gonna talk about how to use the camcorder method. Shout out to [00:01:10] Dan Martel, that's from his book, buy Back Your Time. And then I'm gonna finally show you how to audit and upgrade your s SOPs if you already have them. Alright, so let's start [00:01:20] with the example. The first things first is right, just to give you background, ~obviously I've been obviously we,~
+
+so for the last 13 years we've been creating podcasts for some of the most famous people in the [00:01:30] world. And since the last three years we've been using AI to build systems and implementation and software. For various companies to [00:01:40] help them be more human in how they do business by using AI to do all the things that they don't really need to do.
+
+So chiropractors are allowed to just chiropractic, [00:01:50] if that's a verb, and not worry about all the other admin stuff that comes around with it. How can we create and help coaches to just be good coaches? How did we help~ businesses?~ [00:02:00] Businesses to just deliver on the promises that they are making by using AI so that the humans can do better work.
+
+Could we create AI systems that allowed businesses [00:02:10] to implement a four day work week for their whole team, as an example? So we've been doing that for the last three years, and we are going all in on software development. [00:02:20] So we are at this position right now where we are creating, standard operating procedures.
+
+So it is really important to show you how we're doing it [00:02:30] because it is very valuable for the hires that we're making and the results that we're getting as a result of kind of putting these together. So let's start Now, some of [00:02:40] the things in here might look a little a lot, but I wanna show you what happened.
+
+~The, the,~ what was happening was. We needed to create a local private server. [00:02:50] And for that to happen, ~we had, we've,~ we've obviously done it in the past, but we've not had a procedure to make sure it gets done. And it's a long procedure because it took a long time to set [00:03:00] up and make sure that everything was getting done and all the things were being set up.
+
+So the goal is here ~on the,~ on the right hand side, you can see ~my screen~ is to have. A whole [00:03:10] bunch of containers up and running. Which store? NAN NGINX Porter Super Base, which is a, a, a database. ~And,~ and we need to be able to store this [00:03:20] on a local server. So this is created inside Prox Mox, which is a virtual environment.
+
+You don't have to worry about the details, but what I'm trying to get at [00:03:30] is this is a particular complex task. And~ the,~ I'm gonna show you the procedure that I use to, you know, set up the SOPs. ~So this took about to set this all up, right?~ To [00:03:40] get this all up and running in this manner where ~I have my own.~
+
+~We have,~ as a team, we have our own access to nGenx. Locally we have our own access to NAN, which is free. We have our own [00:03:50] access to Porter, which shows ~you, shows~ all the. Containers and on the network and what is exactly in here. So we needed to be able to set this up in a way [00:04:00] that someone else didn't have to go through the process of doing this all over again.
+
+So this took me about I'd say about a day and a half to set up ~in it,~ in its entirety. So I needed to make [00:04:10] it easier for someone else in our team who is gonna set up a virtual private server, whether it is locally or whether it is online. To make it easier for them to set it [00:04:20] up, to create it all. If they ran into any issues like I did, they would have ~the, the, the,~ the answer straight away.
+
+So the ultimate goal was ~to,~ to have it like [00:04:30] this. ~So let me show you what that looked like.~ This is system 0 0 2, set up a virtual or local private server. And ~it, this is,~ this is all created by ai by the way. I'm gonna show [00:04:40] you how I did that. But it kind of created the whole thing for me, which is~ what, what, what,~ why do we need this framework?
+
+Who's responsible for it? When is this framework due? And how long [00:04:50] should it take? How we, you know, ~how,~ how long do we expect to complete it? And what are the main tasks involved? So ultimately the goal is that the is with all the [00:05:00] containers. Looks like this. This is what complete looks like. And then what is required for it to work and what's the framework?
+
+So that's all put in. And then finally, it [00:05:10] kind of broke it down into phases. And each phase has steps, including exact instructions and installation commands to get it all working. [00:05:20] So this, like I said, complex and there would be a whole bunch of things that happened. So what I did was I went into. [00:05:30] Claude~ and let me show you what that looks like.~
+
+~So.~
+
+~Okay. ~So there are three things that I've attached to this prompt inside Claude. And by the way, I've tried this on a few different places. I've tried this on [00:05:40] Gemini.~ I didn't really get a really good what's here.~ The results have been drastic. I tried this on. Gemini, I tried this on perplexity. I tried this on chat,GPT and the best result I [00:05:50] got was in Claude.
+
+So I'm just gonna show you the Claude version. Now I'm gonna read the prompt out and I'm gonna talk what, what each one of these sections are. Okay? So I got this [00:06:00] working, but I wanna create an SOP for someone else with no experience to complete. I've shared with you some notes I captured along the way and the final container view to see what is running.
+
+Can [00:06:10] you create a detailed SOP, be accurate, make it easy to understand and execute. I have also attached a history of my console logs so that you can see what I [00:06:20] did and in what order. Use the command logs as a rough guide to help you create a comprehensive SOP for someone to follow and execute. Look at my logs for things that might go wrong [00:06:30] and are corrected.
+
+Ask me anything to clarify your thinking and understanding, and think this through step by step and give me your reasoning. Now. That's the prompt. [00:06:40] I have attached to it my final container list. This is all the containers that what success or done looks like. ~Then I have~ so if you don't know inside [00:06:50] Linux, if you type history ~so this is on the left, on, on my left hand side is history.~
+
+It shows you a whole history of all the commands that you've run. So I've took that history and~ I, I put, I, you know,~ exported it [00:07:00] out to a command log list or take t XT list. So I've attached that here. And also any notes that I've taken along the way you know, I've just kind of attached these and anything that came [00:07:10] along, including instructions from other places.
+
+I've just put it into a, a text file and I've kind of given it. And the great thing is that I've actually used Claude Opus four for [00:07:20] this, and I think that has made a huge difference because of how well. That model operates. So then what it does is it takes that and does an amazing job because what it says to [00:07:30] me is that from the logs, it identified several critical issues that I faced, which I totally did.
+
+Like it was not as simple and straightforward to just get it up and [00:07:40] running and set up, and that's why I, I really wanted to have an SOP ready. So if anyone, which people do this all the time, by the way, in a software development firm, this happens all the time and now. [00:07:50] That we are so heavy into developing software AI software for, for companies from the ground up.
+
+These procedures are so, [00:08:00] so important. So, I ran into these issues. The Docker compose version was an issue that is something that was not in the doc. So how I went and did that~ the any,~ and there were [00:08:10] permission issues. So how to fix the file and the permission of those files. There was a missing super base and ENV file and how to copy from an example to [00:08:20] the right file, the Docker configuration using engine X and the multiple N eight N configuration attempts.
+
+Because it kept, I kept struggling with getting it [00:08:30] to all of the same container all of the same network ~inside~ inside Docker. So then it took the whole thing through. Purpose, [00:08:40] prerequisites and the different phases along with all the commands to run, which is so like literally that is what has landed up ~in the,~ it did a phenomenal job [00:08:50] at not only taking my work, which is all the, you know, the sequence of, of commands because it was terminal and they were all commands that I typed, it made it easy [00:09:00] for me to like, copy and paste this and send it and say, Hey, this is actually what I did.
+
+Can you write the SOP from~ my,~ my commands and see ~what I,~ what I ran? So it did a [00:09:10] whole bunch of things and I did some ~really, a~ really good thing as well because in my system instructions, I ask for follow up questions. So it gives me follow up questions at the end of everything that it responses.
+
+[00:09:20] And then it said to me what specific~ it said,~ actually, it, it asked me, give me, you know, should I answer any of these five questions? And I said, actually. What I'd like you to do is gimme step-by-step [00:09:30] instructions for creating a backup and restoration ~proce or~ procedure, how to set up an SSL certificate, and how to create monitoring scripts.
+
+then it went ahead [00:09:40] and created this guide, which is obviously the next step that we've gotta do on our~ on our~ local server to get [00:09:50] monitoring backups ~and, and, ~and SSL set up. So ~I,~ this is the process. The idea that I want to show you is how do you get this going? [00:10:00] So in your business, there will be ~co ~a couple of questions you might be having.
+
+You'll be like, Hey, Ronley, how do I store this? And~ I'll show you. We,~ this is not the first time, obviously I'm creating this. If you didn't know ~my,~ I did ~a, a a~ [00:10:10] master of software engineering and, ~and my,~ my research thesis. Was on process quality, so auditing software processes ~and,~ and companies and taking [00:10:20] them to an ISO 9,001 or CMMI accreditation.
+
+So this is the, Playbook for We are podcast, which is the other business ~that I,~ that I've been running. And it's basically the ~pro the~ [00:10:30] systems references and templates. That's what SRT stands for. ~It's a,~ you have to look ~them up. Look, look~ this up. ~I think it's a, actually, I'll look it up with you.~
+
+~SRT, Francis Francis. No, maybe it's not SRT framework I, I hope that works.~
+
+~Maybe I'll do.~
+
+~Templates.~
+
+So I want to give credit to the person who came up with system references and templates because it [00:10:40] is from some great human being who's created that system, but I can't find the name. I'm so sorry. But it's quite simple to explain, but I just [00:10:50] really wanted to give credit. So systems are processes that, you know, get something done, like onboarding a new team member, editing an episode.
+
+It's a old [00:11:00] system. All processes, references are something that don't change. These are the reference to something. So for example, here's a reference. Off the master list. Here's the reference of the [00:11:10] 10 biggest mistakes that people make when they start a business podcast. And templates are quite simple.
+
+What are the templates? So here's a template for a guest email invite. Here's a template [00:11:20] for a, should I start a podcast, live interview? Here's a template for a playbook. So ~there's all~ the systems, references and templates. This is the We are podcast one, but ~we've,~ we've had to create the new one [00:11:30] for Amplify ai.
+
+And again, they come into systems, references, and templates. It's like. What are the systems, what are the references and all the templates that the business needs to [00:11:40] run? So that's the way you organize your systems, references and templates and your SOPs. So that's how you set them up ~and,~ and I have created little templates in here.
+
+So someone can [00:11:50] come in and create a new system and you reference a new template. Now you might be asking how, if I've already done it, what are the ways to sort of recreate it? [00:12:00] What are the ways to obviously retrace your steps? Now, in my case, I did not record the whole ~pro ~process. Like, you know, if I had Zoom running and~ if I,~ if I could [00:12:10] record ~whole ~all the steps, then maybe maybe that wouldn't have been easier because I would have been narrating it out loud, right?
+
+It, I would've just, it would just be capturing the [00:12:20] screen. But there would be no way for the AI to know exactly what was happening because. The AI is not looking at the video, right? The AI's looking at a transcription and [00:12:30] taking the transcription and then processing it. So, for me, in my case, I used the history and I said, okay, look at the history and see what I came up against.
+
+~And, and, and,~ and this [00:12:40] is what I was trying to do, these all my notes. This is the history. This is what success looks like. Create me, the SOP but also in my project files, I have a template for what a good [00:12:50] SOP looks like. So if I were you, I would do things like go into perplexity, ~perplexity. ~I've got a pro account~ and let me show you what that looks like.~
+
+~This is perplexity here, and~ so perplexity allows you to go and research a lot of [00:13:00] things ~and,~ and so does chat, GPT. So ~I,~ I would use those two places. Would search switched on or agent switched on, or deep research switched on ~in, in,~ in chat GPT and [00:13:10] inside complexity. I would sort of come into the research.
+
+Anything tab hit that. And I'm showing you an example of other templates here. So, so [00:13:20] research for me product requirements, definitions, ~it's a p,~ it's a PRD is a~ is a, a~ term for ~pro.~ Project requirements.~ It is, it is something that,~
+
+~let me start that project requirements again.~
+
+~Okay,~ so here's an example of me doing some [00:13:30] research using perplexity. On PRD templates. Now, PRD are ~product requirements~ product requirement document, and it is a standard document that's required in general [00:13:40] before you start a software development project. And so what I'm doing here is I'm saying, Hey, research for me PRD templates that I've worked and that others have [00:13:50] used, find at least 10 templates that have that templates.
+
+And then based on what you find, create me a template that is best of all worlds. For an Agile software development project, [00:14:00] be accurate and precise. So it went ahead and did you know, some research. Obviously if you can look here on the side, you'll notice all ~the, the,~ the links to [00:14:10] what it's looking at.
+
+So it's done a, great job. And then it's broken down the sections as to what was ~most~ in most of the rds. Right. And then ultimately it came up with this. [00:14:20] Which is the ultimate PRD, it has got executive summary, problem definition, open questions and then it also said this, so I got this as an example, ~and then let me show you ultimately what it looked like. So now.~
+
+~Oh, that's not the one.~
+
+~Fuck, I don't know where it is. Anyway leave it. Let me just talk to her straight away.~
+
+So [00:14:30] I got this structure from Perplexity, right? It gave me this detailed outline of what the standard sections in A-P-R-D-R that I took that, and I put that [00:14:40] into chat. GPTI had a conversation and said, Hey, this is what we've created before. Have a look at these examples of previous. 
+
+Companies 
+
+that we've done [00:14:50] PRDs for this is, ~this is~ our style and structure.
+
+Here is a new style and structure. I want to make sure that we are not missing anything. I've compared them both. And I [00:15:00] finally got an output. And then that output is what went into this, which is ~the,~
+
+~which is.~
+
+~Which is~ this template here. So it'll break it down into [00:15:10] executive summary, context, problem, user personas, goals, outcomes, and this whole detailed requirements with functions and user experience and so on. But not only can is it [00:15:20] broken down into a template. Under each one of this, it actually outlines how to fill it out.
+
+~So. It,~ this template has the what as well as the how. [00:15:30] So I could easily download this, this document, this template, and go into AI and say, Hey, here's a new ~doc, a new~ client that we have. Here's ~the,~ [00:15:40] the requirements, or this is what they want. Can you create a detailed ~project requirements,~ product requirements document based on this?
+
+~And here's, here's,~ so it'll go through the template and easily fill it out, which becomes so much [00:15:50] easier. To do so, those are templates. Now, there are different ways, and I highly recommend using Dan Martel's method of the camcorder method, which is do it for the [00:16:00] last time and record it. Record your screen and talk through it.
+
+And now we've done a few of those. And let me show you what that looks like.
+
+So using the [00:16:10] camcorder method and loom, ~you are,~ you are very well placed to create some beautiful SOPs, for example. ~This is~ these are some of the videos that obviously I've created. Some, ~some ~are watched, some are [00:16:20] not. so here's a whole video is an example. Now we we're hiring ~a, a,~ a new admin assistant, or executive assistant for me, and I recorded a [00:16:30] couple of videos a while ago on how to process my email. So I went through and I processed the email myself, and then I recorded [00:16:40] it. But ~inside the good thing about Loom is, ~The great thing about Loom is on the right hand side, if you have a loom for ai which you know, the normal account, I think this is a $10 a month [00:16:50] account, if I'm right. You can just come in here and click create SOP or generate a document. And that's really useful because it's a very, very good tool and could easily do that.
+
+[00:17:00] So I highly recommend the camcorder method. Obviously if you have things like what we've been doing here with the history, it's easier to show your work and then use that as an example. But~ the,~ the goal [00:17:10] here. Is for you to create systems, references and templates, SOPs for your company, for your business, so that others can do the work.
+
+But not only that, this is really [00:17:20] useful because it doesn't have to be as detailed as I showed you. It can be as simple as a checklist. It can be, this is how I set up a landing page and do this, do [00:17:30] that, do this, do that. It's literally a checklist of things. And every time you set up a landing page, it's gonna be so much easier for you to follow that because you're not having to think of the process [00:17:40] and do the thing at the same time.
+
+Having any process written down, I promise you, is gonna make the world of difference. You might think that it's hard just because you're not used [00:17:50] to it, but I promise you it's the number one thing you need to grow your business. This is how to use AI to ride your SOPs and do it at speed and get it done [00:18:00] the right way.
+
+This is Ronsley and I hope you join me for the next episode of Amplify ai. Until then, I hope you use AI to make your business more human. Much love. 
+
+[00:18:10] love. ~I.~
+

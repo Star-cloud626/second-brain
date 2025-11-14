@@ -1,0 +1,35 @@
+version: '3.8'
+
+services:
+  second-brain:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: second-brain
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - CHROMA_DB_PATH=/app/data/chroma_db
+      - NEXT_PUBLIC_APP_URL=http://localhost:3000
+    volumes:
+      # Persist ChromaDB data
+      - chroma_data:/app/data/chroma_db
+      # Persist Hugging Face model cache
+      - hf_cache:/app/.cache/huggingface
+      # Optional: Mount transcripts directory for batch ingestion
+      - ./transcripts:/app/transcripts:ro
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "node", "-e", "require('http').get('http://localhost:3000', (r) => {process.exit(r.statusCode === 200 ? 0 : 1)})"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 60s
+
+volumes:
+  chroma_data:
+    driver: local
+  hf_cache:
+    driver: local
+

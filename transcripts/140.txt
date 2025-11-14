@@ -1,0 +1,73 @@
+Claude Code
+===
+
+Ronsley Vaz: [00:00:00] Good evening. It is 9:43 PM and I couldn't be more excited to record this video. Today we're gonna talk about Claude Code. It is deep coding at Terminal Velocity, is how they talk about it and they structure it and I can, oh, it's so exciting. Let me show you why this is such a cool thing. I've been coding for a while now.
+
+I've been sort of playing, but I've just installed Claude code and I wanna start installing the MCP servers and stuff like that. And I thought maybe I can record while this is happening. So. Firstly Claude code. this is for coders, right? And if you want to code at speed and like myself, this is amazing.
+
+So first, install no js and then do NPM install minus, you just copy this and paste it into a terminal. But you've gotta actually have [00:01:00] node. JS installed for NPM to work, obviously. So they kind of have this, I love this, line here, deep coding at thermal velocity because it literally is, and you can build some really, really cool things and some amazing tools that already work with, Claude Code.
+
+And, you know, just look at the documentation to like, get into it because there's literally so many different use cases. And it works with your API so you can pay per thing or you, if you have pro or max accounts, then you can just connect cloud code to that and it will use.
+
+Your already existing accounts to, you know, as tokens for Claude Code. So I just wanna show you, so obviously I, I've been coding for a while. I, I'm building this for some, like for a client. I was looking at some of the code, but the team is building. But, you know, I got into Claude Code and I know noticed here, none of the MCP servers are [00:02:00] installed.
+
+So if you go Claude, MCP. Again, if you don't know what MCP server, I basically connects, you know, everything to the world. so Claude, MCP minus MC, p minus, minus help is how you start. But C here, I mean. it gave me the same command back. obviously I didn't complete it.
+
+So the best way to do this is say Claude MCP list. So what is currently on, so no current MCP service found. And I can use Claude MCP add to add a server, but in this list. You can import mpc, M-M-M-C-P servers from Claude Desktop. So I have a whole bunch of MCP servers installed on my desktop, and I wanna see if I can just import them without having to, you know, add and install them all the time.
+
+So I'm gonna go Claude, [00:03:00] MCP, and then I'm gonna say add from Claude desktop. 
+
+And 
+
+it's found six MCP servers in cloud desktop, which is the MCP installer the server file system, puppeteer, MCP, YouTube perplexity Ask and Airbnb and it'll say, I ask me whether I wanna do, I say yes, and it has successfully imported.
+
+So all I can do is go back and say MCP list and it should give me all. The different MCP servers that are connected. Now, actually what you should be doing is going and checking other MCP servers that you can connect. So if I just go and say MCP server Claude code. See what comes up. So the anthropic have their own cloud code [00:04:00] MCP servers.
+
+So click on that. This is obviously the documentation for this and you can connect a whole bunch of things. So, I've connected the MCP server to install other MCP servers, which is that MCP installer. I've also connected. An MCP server. Look at my file system, an MCP server that is puppeteer, which actually sort of controls the mouse and does clicks and it access the puppeteer, literally what it means.
+
+One for YouTube, which means I can kind of say, look at this video and give it a link inside Claude. And it'll go in for Airbnb to find in Airbnb but also for, where's that list Perplexity ask. So. Configuring MCP servers is obviously there's going into each MMCP server and, and seeing what the configs are is up to each MCP server for you to configure.
+
+But I'm not gonna really get into that. [00:05:00] However, I am looking for MCP services is not actually what I'm looking for. 
+
+I think this is a better way to say list of MCP servers.
+
+That's what I'm looking for. So actually the one that I've gone to before, but there's other places that you can go and have a look and see what's worked and what's not worked. So, model, contact, service 
+
+and and model context protocol. So you're looking for this GitHub that says MCP Service, but there's some other things here that maybe I'll look in into this and see what comes up. This is obviously new. I've not seen these before. These are different MCP servers, and 
+
+this is something that you know, sort of, aggregates them.
+
+So I wanna look at featured just to see what are the ones here that are 
+
+are 
+
+really. So there's obviously different ones that do different things and you can keep building your own. So if you're using Cursor or Windsurf, then you can install [00:06:00] those MCP here. If you dunno what that is, don't worry. So I want to go into that. Actually let me go back. And click on my, my GitHub original one. This is the one you're looking for. And in here there's a whole bunch of different servers.
+
+So you can connect a Google Drive server, which let's maybe do that or the components, create a new Google Cloud project. Enable a Google drive, or this is more complicated than I thought. 
+
+Only because you've gotta create an authentication and all that kind of stuff. Let me just go back and find a simpler one. Obviously Slack, which is actually very powerful. Let see, I wanna do the AWS one 
+
+So come down and look at the MCP for AWS and you're try to look for how to install them, which means you wanna go down the list and I want to install I'll tell you which one. AWS bedrock is what I [00:07:00] want. Well, that's the bedrock knowledge base. For citation? see they've got so many MCB server, so it depends on what you actually 
+
+actually 
+
+want. OnceLet me start by installing the documentation, AWS documentation, MCP server. So anytime I need any documentation from the MCP serverI don't need to do much, I just, it's already in here,
+
+So I've obviously come to this point where I wonder whether I can just install it like. This and now you're seeing so let me see if Claude MCP add.
+
+So what I would do in this situation is literally sort of copy this. Okay. And I will open, I don't know, board I suppose. And then in here I would say
+
+here is my logs. Okay, 
+
+[00:08:00] copy that. 
+
+And then I will find this and I will say, Hey, this is. The part, so copy the link. I want to install this MCP server my inside my cloud installation. So here's what is really cool about having AI help you. Is that. You can literally ask for some of these things that when you get stuck and it's so powerful because I used to get to a point where, you know, I tried, tried so much and I would get stuck and it would be really hard to decipher what to do next.
+
+So
+
+see, it was really simple. I was missing. The quotes and I should have just put that in [00:09:00] quotes and it would've worked. I think so. So let me just see if that does work. 
+
+So, now it has the MCP server installed the latest config for all the AWS docs. So it now knows how to install AWS entirely. And if I go, okay, obviously this is all my projects, so if I go not all my projects, the new ones and you know, I would go and create a new project, open cloud code if I was gonna do like any development workInside the project, then I would open a new project and start, say, 'cause AWS is for secure data, secure hosting a whole bunch of different things that you can use it for. Now I have all the documentation inside cloud code. So then you can use that documentation to actually develop the develop or write the code in, in what a, the way AWS wants it actually.
+
+That's very powerful. So, I don't know, I hope that was useful, but that's how you install [00:10:00] MCP servers and this is ronsley. 
+

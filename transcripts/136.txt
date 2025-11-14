@@ -1,0 +1,81 @@
+# 136
+
+Ronsley Vaz: [00:00:00] I have a question, Ron. If you look at the, chat g PT on the settings, how did you set it up?
+
+So, it's easier for response and then you don't need to put it in. Maybe I don't have that done yet. Great question. So, up the top when you have your image there, you'll come onto under customize. And now this customization is, more than what it used to be, but it'll ask you what do you wanna be called which used to not be there.
+
+And then what do you do? Which is also very useful, especially for businesses. So I've written what I do and then what traits should chat GPT have? And I think this is how you tell it. How you want it to behave So for me, I'm being specific and I'm saying, Hey address me as ronsley. and the reason it's addressed me as Ronsley is because these two things were not there before.
+
+It was only these two boxes that were there in the initial customization. and I said always include two to three potential follow up questions in every response because rather than me think. Of what to say. I'm having it think for [00:01:00] me as follow up as well, so you can include that. Then I'm being very specific.
+
+About how I wanted to respond, like use language that is straightforward, forward and varied and more closely resembles conversational and human speech. This is my voice style, so I'm telling it what my tone is, how I use storytelling and humor, where appropriate, what my voice is, how I use metaphors and analogies to explain concepts what my narrative style is, how to use storytelling elements.
+
+Then I'm also saying. Make sure you write in British English. And I have to say that it doesn't always follow that particular one because very simply it's, the model is trained on American English, so, Its patterns of very American English. So the Z comes around all the time, which is kind of annoying a little bit.
+
+But anyway, I'm going avoid using the following phrases and I'm being very specific about what kind of phrases like delve and tapestry and realm and, you know, these, phrases that are very AI [00:02:00] like, and then I, I sort of shut that down. And then the other thing that is useful is here. Put in your whole bio.
+
+So anything else chat, GPT should know about you. Yeah. You should know that this is, my bio, this is my focus, here is my vision and my mission. This is what I wanna do. I wanna reduce human cognitive load. So I wanna put all that in there. And yeah, that is how you customize.
+
+So the only reason it's full is because it's gone from like pro, the $200 account to zero. So it's like telling me all my thing, the, the memory is full and no new memories will be created and that's totally fine. But go in here in your personalization and see what kind of stuff.
+
+Doesn't need to be here. Like sometimes it remembers stuff that are not relevant. For example, in one of the memories here was something about Ronsley had this conversation about anger, but that's because I was on a walk and I was experimenting and I was talking to chat GPT and I was like, Hey, can, we have a conversation about how people can see anger differently.
+
+We had this whole back and [00:03:00] forth about how, you can be angry, but you don't have to insult someone in the anger and all this, long conversation, it was 22 minutes long, but then it remembered that part and it kind of put that in my memory, which didn't need to be there. You know what I mean?
+
+It was just like this one-off conversation. So those things look at and that's pretty much How you would personalize that GPT, mano, I think you're gonna join us for the 90 days, right? So if, if you're gonna join us for the 90 days, then like, I'm gonna show you how to do that in any AI and how to create like this very personalized AI that you can literally go and ask it things like, for example, I spoke at this event in Manchester, and the person that followed me spoke about,
+
+the five stages awareness. I mean, this is like marketing 1 0 1, the five stages that your customer is aware, they're unaware. They're either unaware, they're problem aware, they're solution aware, they're product aware, or they're most aware so they know everything about you. Right. So I just took a, clicked a picture [00:04:00] of that and the, presenter told the whole audience to, they had a worksheet and they were working their unaware, problem aware, solution aware.
+
+So I just clicked that and I went, knowing what you know about me and my business, apply that. And it did that in like. A few seconds. So while everyone was like filling out their worksheets, this was already done and it was only because I had that encapsulated and I could ask it questions.
+
+I have another question. So, yeah, in what way is it possible to make a. AI copy of you. So like when people have certain questions or the ways you help them, AI can answer that for them. And even like they can chat with the ai. Is that very hard to set up something like that where you download everything you normally talk about with people?
+
+Because a lot of my work is repetitive. So how you arrange that data is important. what's happening right now is people are not getting the results because how at the start was talking about, you know, putting all this data in and, it not getting [00:05:00] the right responses because there's a big difference between search and intelligence.
+
+When you search, it's looking for that exact phrase. It's finding that exact phrase, that phrase isn't there. It's saying it's not there. If it's there, it's kind of going, it's there. Intelligence is different. Intelligence is not doing that. Intelligence is more like, I'm already trained in this.
+
+Ask me a question, and then it's giving you a conscious stream of output. That was the first model. The new models, the reasoning models are going, okay, let me think about what you just said. And I think what you said is this, and it's breaking it down, and then it's using that thinking in its output.
+
+So for you to create something of your own, you'd want to know, firstly, I would ask you to do this, write what the result looks like. Okay. Right. What kind of information needs to be there, those results to happen? So, say for example your repetitive work that you're talking about, what are the use cases and then what kind of [00:06:00] material do you need for those use cases to be fulfilled?
+
+So what I mean by that is if your customer is asking for. Say it's a customer service. You know, say you're a business coach and you've got all these trainings, and the customer's like, oh, I need to find how to do X. What are the trainings? So you would have to like go, okay, my framework is maybe attract, convert, deliver.
+
+So it'll either fit in one of those three. Boxes. And if my customer's asking me this question first find out whether it's in those categories and then in those categories what kind of training is relevant for what they are. Then the training will have to be encapsulated and put into an AI so that it can respond with accuracy.
+
+So it's just a process of. collecting the right data and putting that in the right order. So if you can start off with the use case, what kind of sample questions that people will kind of ask, and then what kind of data needs to be [00:07:00] put in there. Then in our next session like this, we can then break it down and start talking about how to put it together.
+
+So ladies and gentlemen, if you don't know what just happened Stefano was having this issue with a coding issue and there's an AI app called Cursor, which pretty much does.
+
+All the coding for you. And it feels kind of useless that I went to university to learn all this stuff, but he kind of just put that in and it wrote all the code for him and it compiles and now it's an app that he just has to put on the app store which is insane. So, talk about how AI is changing the game.
+
+like that was the biggest problem with software was, if something was not working, we didn't know how to fix it, and sometimes it would compile and we're like, oh, where's the problem? But now you can just put that into AI and debug it.
+
+keep us updated on, how that's going and what's the next step for the. But I still have to do some debugging that if I didn't understand what was going on, I feel like there would've been a lot more problems. So there were some areas that have to be specific and plus it's not like I asked it to do from scratch.
+
+I had the tablet with the website already, [00:08:00] so I just said, convert this to type three. I looked at all the research for how I'm going to run it on an Android thing, but now I've started brainstorming with more ideas with, and if you, if I gave it like the context of like, what are simple ways you could help in everyday lives?
+
+And it actually follows that context really well when it's brainstorming. Yeah, that's cool. Awesome. one last question. Sure. Is there another tool that does similar to what Chatt PT does with the agents out there, I was testing the, the $200 a month one with chat, GPT, and I had like five different windows open and a different chat agent was doing research and compiling it into a spreadsheet operator.
+
+Oh, yeah, operator. Yeah. I don't think operators like functioning that well in the sense that, no, it drove me crazy. So I can't, it's nots. Yeah. No, it's not you. It's not you. It's, them releasing something in a, marketing ploy against deep seek. Because deep seek came out and they had to like, put something out.
+
+they [00:09:00] put out operator. It's not functioning well. It's not doing what it's supposed to do. So the promise is there, but it's not really like I haven't seen a single use case that is. Useful yet on Operator, and there's another tool that does similar yet, oh, there is MON minus ai, but again, that's a Chinese company, Uhhuh, and there's nothing wrong with them.
+
+It's just that the, the US is using that as a marketing thing. But they're all open source, which is insane because Open AI is called Open ai, but they're not open at all. they're closed. deep seek and minus are both open source, which means, you know, we know everything. We know how it's working, we know the training. We know how it's taking the data, how it's using the data, how it's thinking. we know everything. and, not only we know all that, it's open source, which means other people are building on all the work that they've done, which is ideally the way we want it to be.
+
+But Manas is like that unfortunately it's got so much of hype right now it's like invite only and, I haven't been able to get [00:10:00] in even though someone sent me a code, that code didn't seem to work. So, I've just joined the waiting list and I'll have to see.
+
+And on, the same note by the way,
+
+using deep research, using the $200 and saying, find me a hundred ways to improve and grow video podcasts. And then give me like, a hundred ways and strategies to grow a business video podcast, which is ridiculous. When you think about how to compile something like that.
+
+Then another thing is this is useful. This'll find useful. like I then said, well wait a minute. Can I improve on that? I've done already 350 episodes on We Are podcasts. Just use that as your reference. So it then made a hundred Ways to Grow Your Video podcast using We are podcast episodes.
+
+Wow. And here is the video. So, so rather than release them as a hundred, the team has started to release them in, batches of, 25. So here's the one on, build audience. And again, these are all previous, podcasts. So [00:11:00] it's the, tip, and if you want more on the tip here is when you go to listen to it.
+
+What the fuck? That is insane. That is insane. Right? And then the second one, which went out last week, I think, was this one. So then I think next the following will be the third one and that, so on. So yeah, if you already have the $200 one, that's kind of a useful thing to do. I canceled it 'cause it was driving me crazy.
+
+But it'll get better. It'll only get better. And the inside news is that OpenAI is not profitable. they might be have all these users, but for the amount they're spending for compute. They're not actually profitable, so they need to be in a monopoly to win.
+
+So they're trying everything to shut down, deep seek, and these other players in the game. Because otherwise, you know, they're not actually a profitable business, but that's on the down low. We don't know how true that is, by the way. Cool. Yeah. Well, thank you so much.
+
+You're welcome. I love, I love these sessions. So [00:12:00] thanks for showing up team. Good to see everyone.

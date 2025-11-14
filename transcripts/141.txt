@@ -1,0 +1,71 @@
+WITH MATT ALDER
+===
+
+Ronsley Vaz: [00:00:00] I think anyone in any capacity would be surprised at the speed at which it's happened. 
+
+this was just a theory. The blockchain was just a theory. You know, we had an idea of what could happen in a decentralized system. We didn't have fast enough computers. We didn't have, you know, that much data that we could store internet was not even fast enough.
+
+So there's all these limitations that didn't allow or even allow us to conceptualize this far ahead. However, I. If you know the curve of adoption, not only adoption, but the curve of how much computing power you can fit into a small inch is a exponential curve. So this massive improvements that have happened over the last few years, I mean, when the first supercomputer got built, it almost was like someone ran the first four minute mile.
+
+It just started to. You know, people started to break [00:01:00] those barriers, which were thought of as it was impossible, almost just 'cause the hardware could not support the theory. So yes, of course, 100%. It would be stupid not to say that anyone that would knew exactly that this was where we're headed.
+
+We knew that in theory. But this quickly, I don't think so.
+
+And do you think that this sort of kind of incredible sort of pace of change, this curve, vertical curve we're going up with, is that sustainable? Are we likely to see the same kind of speed of development over the next five years? I think it is sustainable. I think the only thing that doesn't allow it to be sustainable is humans need for not wanting to change is probably the only thing that
+
+Matt Alder: Yeah. No, that's interesting.
+
+Ronsley Vaz: yeah, that will come in the way. But in terms of. What is possible if you look at Industrial revolution and how much we do with machines already, but we don't even remember.
+
+We just think it's normal. It's not normal to control the temperature of a room. we just take a lot of these things for granted. Yes, it is sustainable because [00:02:00] it's been gradually happening. It's just that we don't notice that it's happening.
+
+Matt Alder: Yeah, that's a kind of a stunning point actually, just in terms of how quickly we take things. for granted. I just wanted to get your view on there is so much hype about. Gen AI now, and agenda AI and agents and all this kind of stuff. Where's the line between hype and reality? Are things being overhyped? 
+
+Ronsley Vaz: it's an annoying. Goddamn line, especially for me hearing some people say really dumb stuff publicly, but it's the bro code of marketing, you know, to fake it till you make it. It's so, I don't know whether that part has changed. I think there's always gonna be a bunch of people that will take that and use all these fancy words.
+
+Like there are people, I actually watched a really good friend of mine and very well known entrepreneur, put out a post about, we just built three agents in the last half an hour. No, you did it. You built an assistant if that. It's a [00:03:00] big difference between assistant and an agent. And so maybe to clarify for people listening, an assistant is someone that you hand over a task to and you say and guide and hold hands with, and you get your solution.
+
+An agent is, here's my task, get it done, and it'll find the best way to do it and do it with a checklist and create assistance to help. The agent achieve. So it's agentic behavior. It's hands off. 
+
+so of course there's a hype. There's a hype, yes. And it's usually the marketers that are making the hype. I think the marketers are on one side making the hype, and then there's the media that's pulling everyone down.
+
+And there's somewhere in between, is the entrepreneur's way to, to find their own space in this world, because here's what's. This will easily be the biggest conversation of our lifetime. there's no debate on that. It's gonna change how we even educate our kids. Right. It's changed everything. 
+
+Matt Alder: There is a kind of [00:04:00] a real sort of debate, a moment about how much, aI should or can do in the recruitment process. And I think that people are perhaps drawing the line in the wrong place. 
+
+Ronsley Vaz: I think if you understand how AI has come together, there's a, is a combination of neurology and psychology and physics and chemistry and math and computer science. There's so many, there's about eight or nine different fields that come together to create ai, the field and.
+
+Computers are built on us. It has long-term memory. It's got short-term memory just like us. It's got compute just like us. It's got neurons firing in certain ways just like us. So, you know, it's the only reason some of the things are not possible yet is because we've not found a way to articulate what that is. 
+
+Matt Alder: What is it that people can be doing right now to kind of really get up to speed with what's possible to educate them themselves? How should people be experimenting? What kind of mindset is there? what do we all need to be [00:05:00] doing?
+
+Ronsley Vaz: that's a very big question. I think just learning, just taking responsibility of the fact that, you know, this is a new skill that you might not have, and I. Just 'cause you get a response out of chat, GPT or any AI doesn't mean it's the right response. So there's an element of knowing what you're doing and how you are asking. being more responsible of how this works and where it works is probably the first thing. The second thing is not necessarily to look at the new AI tools or the new AI news that's coming out all the time, but to build on whatever value piece you bring to the table.
+
+So if you've already spent. I think most people, you talk about the panic earlier, Matt and you, the panic comes from, oh, I've spent 20 years of my life doing this. What if it goes away? Rather than, oh, I've spent 20 years of my life [00:06:00] doing this. I know more about this, and if I augment that 20 years that I have of experience with this artificial silicon-based intelligence, I could potentially be untouchable,
+
+from aai 133
+===
+
+Ronsley Vaz: [00:00:00] we're probably all using more AI than we know. And that's why it's even more important to have your voice and writing style.
+
+So it's like, it differentiates. I can't tell you how many times I've used that again and again and again. It's just paying me huge dividends because I'll take all the writing from all these different apps and I'll just run it through that Scott Voice and it, people have said, wow, you know, this, this is so you, and it's, no, it's actually part of me, part of it's chat.
+
+GPT. Yeah. Thank you. I appreciate it because I. find that you know, for the last two and a half years, people like are using AI without doing it the right way. and actually even worse, people are selling that to others. And the ones who don't know any better just are sort of buying. if you know what you're doing. You can probably get as good if not much better results It's not about how quickly things are moving at all. It's about how quickly can you implement the things that you haven't been able to implement in your [00:01:00] business in the past. that's the simplest that I wanted to focus on . the only reason you're aware of all this new things in AI is because everyone's creating a new, newsletter or there's new content going out and you are involved in it.
+
+these kind of breakthroughs have been happening in AI for ages. It's just that no, no one's known about it. It's, it was happening in a silo. So now that everyone's on top of it, it just feels like it's happening so quickly and don't get caught up in that. So don't get caught up in the new of open AI with agents that have been released yesterday and the day before yesterday.
+
+WITH CHARLSE GAUDET
+===
+
+Ronsley Vaz: [00:00:00] I don't think that business owners should be focusing on how quickly AI is changing. I think they should be focusing on. the business goals that they have and how can they get that result?
+
+And you can get that result without the new technology that's coming out. Much, much better than you can trying to figure out a new technology if you are just learning ai, there's so much you don't know. . I meet people every week, who say, Ronsley, I am really good with ai. And then five minutes later they're like, oh, I didn't even know you could do that.
+
+And I'm like, that's basic. That's basic. Like, that is such a, that's fundamental to how AI operates. So how are you going out and claiming AI expertise when you don't know these fundamentals? so, you know, if someone's looking to kind of get. Use AI properly. I think getting someone who knows what they're doing and how it actually works to use it in context of where they are in business.
+
+And that's gonna make a huge difference just in general, [00:01:00] just straight away, rather than you having to find out what prompts are working and, it's definitely not about the prompts, it's more about the process or the process of how you get the result. That's why if you say, this is the framework, I'd like you to apply. You get a way better result 'cause it knows what you're trying to achieve. Things are gonna change and I don't want to put like this nice veil over things andsay that it's not, It's changing very quickly, and it's primarily because you can get the result faster, quicker, better. So why not use that? why not Like, really make that the focus I feel we get wrong is we allow AI to even disrupt our thinking of what focus looks like. And I'm asking everyone to not do that. I'm asking everyone, you already have your focus and Stick with your focus. Because as a leader, the only thing that you can potentially give everyone is focus.
+
+Better than anything else, and give them that focus. 
+
+
+

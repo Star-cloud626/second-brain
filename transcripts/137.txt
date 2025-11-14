@@ -1,0 +1,231 @@
+Matt Alder
+===
+
+Matt Alder: ~Oh right. Okay. I'll just pause for a couple of seconds. I'll say hello. We're up and running. So all set.~ [00:00:00] Hi Ronsley, and welcome to the podcast.
+
+Ronsley Vaz: Hey man. How's it going? How's it going, Matt?
+
+Matt Alder: Really, really good. ~And it is an absolute pleasure to have you on the show. Please, for the benefit of everyone, could you introduce yourself and tell us what you do?~
+
+Ronsley Vaz: ~Well, I've actually thought it was the host job to do that, but anyway.~
+
+Matt Alder: ~We, we won't mention your, we won't mention your background in your background in podcasting and things like that we expect me to critique as I go along.~
+
+Ronsley Vaz: ~Well,~
+
+Matt Alder: ~of course I'm gonna record a lovely intro for you, but I wanted to hear it in your own words as well.~
+
+Ronsley Vaz: ~So it's so much easier when someone else does it 'cause you don't actually know what to put in there. And a lot of the times they feel, oh, should I mention that? Should I not? But the best way to explain what I do or what I've been doing is the first part of my career, I was talking to computers. I'm a computer scientist.~
+
+~Software engineer can program in 21 languages. My first job out of university was to program a tractor to wake up in the morning and plow the field using GPS and park itself. Give you a rough, I, this was way back in the day. It feels like such a long time ago. And then the next part of my career was talking to humans, as you mentioned, podcasting.~
+
+~And 13 years in the field, I suppose, started the first podcasting conference in Australia. Signed the first deal with Amazon Audible in Australia, you know, and easily companies would've done. Help at least a thousand thousand 100 podcast businesses and brands start and grow a podcast, you know, over the last 13, 14th year now.~
+
+So I've been~ a, a,~ a proponent of amplification [00:00:10] for a while. And it's really interesting because I find the overlap and the overlap is I love amplifying [00:00:20] people's genius. ~So, you know,~ whether it was podcasting or ai, now. Which, you know, the two parts of my career have come and joined ~and, and,~ and had a baby almost with their artificial intelligence.
+
+So, I feel [00:00:30] like they're both amplifiers in a huge way, especially of people's genius. If they've done something and they're the ones that [00:00:40] feel like the best kept secrets in the industry you know, then it feels like these are two elements that would really, really help them.
+
+Matt Alder: ~And, and, and that's why I wanted you to introduce yourself basically. 'cause I think that you know, that unique background you have of like content creation, marketing, and being a software en being an actual software engineer. It just, I, I just think it's just, it's why it's amazing to talk to you about ai.~
+
+~So. You mentioned, you know, you, you started off programming tractors to plow fields and things like that.~ So you've obviously been, you [00:00:50] know, looking at this space ~for a,~ for a long time. Are you surprised by the developments of the last two or three years?
+
+Ronsley Vaz: Yeah, I think ~anyone, ~anyone in any capacity [00:01:00] would be surprised at the speed at which it's happened. ~So to give you context, I did so,~ so it took me four years to get a bachelor's of, of, of engineering, okay. Computer Science and engineering. Then it [00:01:10] took me another three years to get a Master's software engineering, another two years to get ~a.~
+
+An MBA, and this is while I was working, the masters were while I was working, but to give you context of when I went to [00:01:20] university, this was just a theory. The blockchain was just a theory. You know, we had an idea of what could happen in a [00:01:30] decentralized system. We didn't have fast enough computers. We didn't have, you know, that much data that we could store internet was not even fast enough.
+
+So there's all [00:01:40] these limitations that didn't allow or even allow us to conceptualize this far ahead. However, I. If you know the curve ~of,~ of [00:01:50] adoption, not only adoption, but the curve ~of,~ of how much computing power you can fit into ~a,~ a small inch is a exponential curve. [00:02:00] So this massive improvements that have happened over the last few years, I mean, when the first supercomputer got built, it almost was like someone ran the first four minute [00:02:10] mile.
+
+It just started to. You know, people started to break those barriers, which were thought of as it was impossible, almost just [00:02:20] 'cause the hardware could not support the theory. So yes, of course, 100%. It would be stupid not ~to, not to, to,~ to say that anyone that would knew exactly that this was where we're [00:02:30] headed.
+
+We knew that in theory. But this quickly, I don't think so.
+
+Matt Alder: And do you think ~that ~that this sort of kind of incredible sort of pace of [00:02:40] change, ~this,~ this curve, vertical curve we're going up with, is that sustainable? Are we likely to see the same kind of speed of development over the next five years? ~I.~
+
+Ronsley Vaz: I think it is sustainable. I think the only thing ~that's, that's,~ that's, [00:02:50] that doesn't allow it to be sustainable is humans need for not wanting to change is probably the only thing that
+
+Matt Alder: Yeah. No, that's interesting.
+
+Ronsley Vaz: yeah, that will come in the way. But in [00:03:00] terms of. What is possible if you look at Industrial revolution and ~how much,~ how much we do with machines already, but we don't even remember.
+
+We just think it's normal. It's not normal [00:03:10] to control the temperature of a room. ~It's not, you know, it, it is. We,~ we just take a lot of these things for granted. Yes, it is sustainable because it's been gradually happening. It's just that we don't notice that it's happening.
+
+Matt Alder: Yeah, ~that's a,~ that's a kind of a stunning point [00:03:20] actually, just in terms of ~how quickly we take,~ how quickly we take things. ~For, for, for,~ for granted. I wanna dive into ~the, the, the,~ the human part of this in a second because it's sort of really important ~for for our,~ for our industry and the sort of ~the, the,~ the conversations that we're [00:03:30] having and the technology that, ~that, that we, ~that we are seeing develop.
+
+Before I do though, I just wanted to get your view on there is so much hype about. Gen AI now, and [00:03:40] agenda AI and agents ~and all this,~ and all this kind of stuff. Where's the line between hype and reality? Are things being overhyped? Are people sort of talking about things that are gonna be possible in a [00:03:50] year's time as if they're possible.
+
+Now, what's the, ~where's the,~ where's the line of reality currently?
+
+Ronsley Vaz: ~Well, that's a great question because it's,~ it's an annoying. Goddamn line, especially for me hearing some people [00:04:00] say really dumb stuff publicly, but it's the bro code of marketing, you know, to fake it till you make it. It's so, I don't [00:04:10] know whether that part has changed. I think there's always gonna be a bunch of people that will take that and use all these fancy words.
+
+Like there are people, ~I,~ I actually watched a really good friend of mine [00:04:20] and very well known entrepreneur, put out a post about, we just built three agents ~in ~in the last half an hour. No, you did it. You built an assistant if that. [00:04:30] It's a big difference between assistant and an agent. And so maybe to clarify for people listening, an assistant is someone that you hand over a task to [00:04:40] and you say and guide and hold hands with, and you get ~your, your,~ your solution.
+
+An agent is, here's my task, get it done, and it'll [00:04:50] find the best way to do it and do it with a checklist and create assistance to help. The agent achieve. So it's agentic [00:05:00] behavior. It's hands off. ~ more, I suppose, what people think it will get to. And it's already here, by the way. It's not like it's not, but it's not that easy to make.~
+
+~It's not that easy to. Especially teach someone else, you know? So,~ so of course there's a hype. There's a hype, yes. And it's usually the marketers that are making the hype. ~And then it, so~ I think the marketers are on one side making the hype, and then there's the media [00:05:10] that's pulling everyone down.
+
+And there's somewhere in between,~ you know,~
+
+Matt Alder: ~Somewhere in between is the, is the~
+
+Ronsley Vaz: ~is~ is the entrepreneur's way to, to find their own space in this world, because here's what's. [00:05:20] This will easily be the biggest conversation of our lifetime.~ There's not,~ there's no debate on that. It's gonna change how we even educate our kids. Right. It's changed everything.
+
+~So, so I think conversations aside, I think we all gotta take responsibility to learn this because just like the web and the internet even that is a small spec as to what. Possibilities are with ai and right now the way people are using ai, it's like, you know, you have a laptop, but you're using it as a paperweight to, to put over your bills.~
+
+~So you know, people are still not using it to its full capacity. And you know, it's obviously being hyped a lot.~
+
+Matt Alder: ~Yeah. And I think the reason I,~
+
+Ronsley Vaz: ~I.~
+
+Matt Alder: ~the reason I ask you that is because, you know, certainly in talent acquisition we've got this huge amount of hype about what's possible and what's not possible and and that sort of thing. And then on the flip side, a lot of people's experience of, I. Gen AI is just seeing LinkedIn full of kind of I ident posts.~
+
+~You know, and that to many people is, is, is generative AI people just using chat GPT. And, and there's a really kind of, sort of false narrative that it's not that sophisticated. It does this, it's not very interesting. You can easily spot when someone's using it, but you couldn't be more wrong.~
+
+~Could they?~
+
+Ronsley Vaz: ~Yeah. You know, if, if, if someone's like, oh, I, I write all my content myself is like saying I didn't use a calculator to do the, the math on this, or I washed my clothes by hand, or I back, I, you know, manually. Swept the floor or didn't use the vacuum cleaner. You know, it's just such a, it's such a handicap to not use ai, but the problem is that most people are not using it correctly.~
+
+~So they're getting very generic results and as a result, they kind of associate AI with that. I mean, same thing happened with Facebook, right? When first Facebook came out, everyone that had a Facebook account was a social media expert. And, I don't think even they knew what they were doing in a lot of respects, which is what's happening right now.~
+
+~But, you know, I just wish that people listen to the right people. But in general, if you think about how the world's working, you know, the ones that are shouting the loudest are really the ones that are being heard. I. If you think about it, they might not have the expertise. Even you look from afar. I'm talking about not only world governments, I'm talking about in general, it's a, it's a very common theme in organizations.~
+
+~We tend to carry, like we tend to view and influences view on a topic more highly than an expert's view on that same topic. So. I suppose we shouldn't be surprised and you know, it's stupid to fight the current, I suppose, but, you know, knowing the current and then swimming along in a way that gets you to where you wanna go is probably the way to do it.~
+
+~And I think to answer your question, most of us get caught in the current because we actually don't know where we want to go.~
+
+Matt Alder: ~Hmm. No, I think that's the thing. And I think also, people just don't perhaps appreciate the sort of the sheer breadth of tools that are available and exactly how to use them. And you know, all, all those kind of things and some, some incredible things are, are already possible with with what we've, what we've kind of got access to.~
+
+I [00:05:30] wanna shift to talk about this humans, machines, relationship, competition, whatever it is ~in ~in recruiting. There is ~a, a,~ a kind of a real sort of debate, [00:05:40] a moment about how much, aI should or can do ~in,~ in the recruitment process. And I think that people are perhaps drawing the line ~in the,~ in the wrong place.
+
+I [00:05:50] think that there's a feeling that humans can do some things better, that actually we really know computers can. Where does the. Ultimately, [00:06:00] where does the line between humans and machines sit with this? What is it that humans can do that machines can't replicate or certainly can't replicate now or in the near [00:06:10] future?
+
+Ronsley Vaz: I don't think there's anything that humans can do that he, that, that won't be ultimately I'll tell you why. Because I think if you understand~ the, the,~ how AI has [00:06:20] come together, there's a, is a combination of neurology and psychology and physics and chemistry and math and computer science. There's so many, there's about eight or nine different fields [00:06:30] that come together to create ai, the field and.
+
+Computers are built on us. It has long-term memory. It's got short-term memory just like us. It's got [00:06:40] compute just like us. It's got neurons firing in certain ways just like us. So, you know, it's the only reason some of the things are not possible [00:06:50] yet is because we've not found a way to articulate what that is.
+
+For example, emotional intelligence is probably a new-ish. [00:07:00] Field and you know, our parents might not even know what being present might even mean as an example. ~So it's only newly this, these,~ these topics are only being [00:07:10] able to be expressed now. And, but over time, you know, we know for a fact certain things we're not good at, we're not good at memory, you know, we're not good at [00:07:20] memorization.
+
+~So it,~ it would not be smart. To go against a computer that is extremely good at memory. [00:07:30] So there's certain things right now you can only see that and when ~you,~ you keep asking about the line, I think we're gonna constantly def redefine that line. I think that line's gonna [00:07:40] change. It's gonna be very drastic.
+
+~They, there was a time when. All of us didn't like, you know, re rebelled against emojis and selfies, but we, we use them now, you know, so.~
+
+Matt Alder: ~I,~ I remember cam cameras on phones seemed like the most ridiculous thing that anyone had ever invented.
+
+Ronsley Vaz: right. And, ~and now you see, it's a,~ it's a [00:07:50] whole new version of a human that are being I suppose, educated to operate. World in different ways. And I'm talking [00:08:00] about schools. I'm talking about through social media and different types of media and parents ~and, and,~ and how parenting is even done and how learning is even done.
+
+There's so many, so much has changed, right? [00:08:10] And it'll continue to change. So that line is super hard to draw right now for the future. ~But as, as we stand, do the things that AI can't do right now, which is be courageous. Be collaborative be connection worthy, you know, those are the things that are super hard to do right now.~
+
+~And with AI is what I mean, and what's happening is people are just doing the same thing, right? You, you talk about LinkedIn earlier, they're just same regurgitated stuff, you know, it's AI generated, you can see it. But if they just was courageous enough to make that phone call that they've been avoiding, and that's why they put out this article, would've been way better for them than actually, you know, put using ai.~
+
+~So in a lot of instances it's just, you know, I. Not wanting to do the courageous thing or not wanting to do the collaborative thing, or not wanting to do the connection piece, and you're so disconnected, funny enough, being so connected as a, as a human species, but totally disconnected as a human being is more and more prevalent.~
+
+~And you, you'd agree with me on that. I think.~
+
+Matt Alder: ~Yeah, no, I would yeah, no, I agree.~ I agree a hundred percent. And I think that~ yeah, you know, going back to what you said about this is the, the biggest conversation we'll we'll ever have. I mean, you know, 1,000,001. Million percent agree with you there. And I suppose to, to kind of help people with this,~ so how do we sort of move ~from,~ from [00:08:20] panic ~and ~and denial towards sort of opportunity and strategy?
+
+Ronsley Vaz: Oh, I love this question for a variety of different reasons. ~It's in the, ~it's in the opening of my book and in the opening of my [00:08:30] book. I talk about have you ever, have you heard of David Hawkins, Dr. David Hawkins, map of Consciousness. ~I.~
+
+Matt Alder: ~I, ~oh, maybe not sure.
+
+Ronsley Vaz: So Dr. David Hawkins is, you know, [00:08:40] from the seventies he's done this lot of work ~in, in,~ in calibrating frequency and consciousness, and he's got the map of consciousness and it goes from a scale of zero to a [00:08:50] thousand. 20 is guilt and 40 shame,~ or, or,~
+
+Matt Alder: ~Okay. Yeah.~
+
+Ronsley Vaz: ~yeah. So, or,~ or one or the other. And then, so it's called power versus force forces.
+
+All the frequencies from zero [00:09:00] to 200, it's all force from 200 to a thousand is all power. And at 200 is [00:09:10] courage, which is really interesting. I mean, I didn't even think of that until I'm talking to you right now. ~I, I should actually confirm that, but but you know, so, so, so. You could be vibrating.~
+
+Everyone's vibrating at a certain frequency, okay? So if you are vibrating at [00:09:20] guilt or shame in the lower forties and twenties, you'll see a certain event in a certain way. If you are vibrating at reason or courage or anger [00:09:30] or love, it doesn't matter. Depending on the frequency you're, you'll see the same act differently.
+
+So it could be a simple act as me. Walking out, out, out of this conversation and [00:09:40] getting a cup of coffee. Depending on where you're at on that spectrum, you'll see it differently. So I ask you, whoever's listening that, where are you vibrating [00:09:50] at? Okay. ~The first thing, and I would, I would ask you that. I would,~ I would say to you as a human, you are only job right now is to make sure that you are moving your vibrations up.
+
+Because that's something that, you [00:10:00] know unless you replace the hardware of a computer. It's super hard for an artificial intelligence piece to do. So it depends on where you're at. And [00:10:10] I'm gonna say to you ~that,~ that I'm very hopeful for the future. 'cause I don't feel like, 'cause I don't feel like [00:10:20] being the opposite is useful to where we're going.
+
+Okay, so there's two ways to look at this. Now you can either be, so artificial [00:10:30] intelligence is learning from us. You know, we know that we can either be the parent that says, do as I say, or we can be the parent that says, do as I do. ~So we,~ if we keep [00:10:40] going down this path of someone has to lose for me to win, then we are not headed down the right path in this AI race.
+
+All. But if [00:10:50] we go down the path of this collaborative nature here, there's ~enough ~enough for everyone. There's abundance, there's let's all connect. Let's not divide over all these [00:11:00] differences. Let's you know, do the courageous thing. There's a lot of hope for what we can do. Then becomes the augmentation of intelligence, the thing [00:11:10] that we crave.
+
+Which is autonomy and freedom to do what we want to do, and we want to do it is totally possible because I [00:11:20] do feel like AI can solve some of the world's biggest problems. What it comes down to is whether the humans in power will [00:11:30] allow that to happen. You know, so there's so many elements here that are at play, and that's why having an open [00:11:40] source anything.
+
+AI is the way forward. It can't be closed, it can't be, it can't be policed. It can't [00:11:50] be you know, rules can't be put on it because it needs to thrive. It needs to flourish, ~it needs to be, it needs to, ~it needs to grow, and we need to find better ways to do what we're doing.
+
+Matt Alder: No, [00:12:00] absolutely. I think that finding better ways to do what we're doing~ is the, it's kind of the real,~ is the real sort of core of this. 'cause I think people are kind of protecting. Ways of working and institutions ~and,~ and things like that, [00:12:10] that don't actually do the best job ~at what they~ at what they could do.
+
+~And I think recruiting is a, is a classic example because you know, you talk to any, anyone who's looking for a job out there and they'll tell you that it's a terrible. Dehumanizing process. And we've just gotta do better than that. And I'm really optimistic that AI is, is what's gonna help us, is what's gonna help us do that.~
+
+~So let's just talk a little bit more sort of tactically for, excuse me, voices just going, I need to replace myself with ai. ~So let's talk a little bit more tactically. What is it that people can be doing right now to kind of really get up to speed [00:12:20] with what's possible to educate them themselves?
+
+~You kind of mentioned listening to the right people. ~How should people be experimenting? What kind of mindset is there? ~What, what, what,~ what do we all need to be doing?
+
+Ronsley Vaz: ~It is this, that's, ~that's a very big question. I think just learning, [00:12:30] just taking responsibility of the fact that, you know, this is a new skill that you might not have, and I. Just 'cause you get a response out of [00:12:40] chat, GPT or any AI doesn't mean it's the right response. So there's an element of knowing what you're doing and how you are asking.
+
+~And so, you know,~ [00:12:50] in business or in general, there's this value alignment gap that we all have in the sense that it's hard for us to express exactly what's in our brain. [00:13:00] So that's why the delegation piece becomes hard, especially, you know, recruitment. Someone comes on for the first time, that's why there's an onboarding process.
+
+That's why there's [00:13:10] some training involved to get them up to speed with the lingo and how things operate in the new business. So I feel like ~there's,~ there's an element ~of ~of having to [00:13:20] learn these new skills. And then one of the, one of the. Easiest skills to learn is logic is how does a computer [00:13:30] operate?
+
+What is required for the computer to do its best work? What is not common sense? What is common [00:13:40] sense? What is explicitly required to be mentioned? What is not? How does the computer. [00:13:50] Operate in terms of the process that you're asking of it. So there's all these different elements that I feel is being missed because people are selling prompt packs [00:14:00] just to make a quick buck, and the copy and paste prompts will work, but you just don't know what's happening.
+
+You just don't know why it's working. [00:14:10] And sometimes they don't even work. It's probably a prompt pack that they've put through another AI and just sold it to you. ~So, you know. Being,~ being more responsible of how this works and [00:14:20] where it works is probably the first thing. The second thing is not necessarily to look at the new AI tools or the new AI news that's coming out all the time, [00:14:30] but to build on whatever value piece you bring to the table.
+
+So if you've already spent. I think most [00:14:40] people, you talk about the panic earlier, Matt and you, the panic comes from, oh, I've spent 20 years of my life doing this. What if it goes away? [00:14:50] Rather than, oh, I've spent 20 years of my life doing this. I know more about this, and if I augment that 20 years that I have of [00:15:00] experience with this artificial silicon-based intelligence, I could potentially be untouchable, ~you know?~
+
+~I think it's, there's, there's a way of looking at that. So rather than look at, look at it from a, a place of lack, you know, so if you think about driving or drivers, you know, we knew, we know that drivers are not gonna be a thing going forward, or it's gonna be much, much less, you know, drivers are gonna, as a, we've known for 10 years at least, if not much longer.~
+
+~So, but talk about that, that first job that I had, that was. Unmanned vehicles. That was in 2006. So you know, that was even operational back then and you know, deployed back then. It just not in public spaces. So drivers are gonna be a thing that will be different going forward, but the ones that will probably do really well are the drivers that kind of go, well, what part of my job is not replaceable?~
+
+~How do I could I, could I become a, a recruiter for drivers for their next job? That's gonna be a, that's gonna be a field. Like, I'm just making stuff up right~
+
+Matt Alder: ~Yeah, of course, of course. It's like looking at that kind of opportunity and it's kinda interesting 'cause I was at a conference last week in the US called Transform and the Transform, I think it was originally called Transform hr. I. The reason I like it is it's full of people having these conversations.~
+
+~So I was talking to someone who had been a recruiter for over 40 years, and they were there to think about how they could take their knowledge and build AI tools that would, would scale it. And it was exactly that kind of conversation is the kind of conversation we need to be having, not the. It would ever catch on.~
+
+~I don't wanna use it. It's I'm,~ I'll always be much better than machines. And it was just refreshing to [00:15:10] have those kind of con, it's just brilliant to have those kind of conversations. ~And, and,~ and change happens. ~I,~ I have a friend who owns a farm and you know, it, I think he inherited, you know, it's a family farm.
+
+[00:15:20] When he was young, there were 10 people working on the farm. Then there were five people working on the farm. Now it's pretty much just him because. ~The,~ the tractors kind of plot their own route and he can, you know, with a [00:15:30] bit of freelance help for want of another word, he can run the farm by himself.
+
+And that's technology. ~That's, that, that's, that's done that. So, so yeah, the, ~the evidence is out there for people. The evidence is out there for people to see. A hundred percent. Just [00:15:40] to, I suppose maybe just to give people a little bit of a kickstart, 'cause I think there are lots of people who are just kind of stuck with chat GPT and that's ~the, the,~ the whole world of AI for them.
+
+[00:15:50] What are the, what are some of the sort of favorite tools that you use, or what are things that people could~ you know, play,~ play around with and get some value from really quickly?
+
+Ronsley Vaz: ~We,~ I just did a training ~for,~ for my group [00:16:00] last week about how we used to have multiple chat GPT accounts, ~including,~ including the pro $200 ones, and we've gotten slowly just waned [00:16:10] off chat GPT and we're all on the free version of chat GPT right now. So, you know, it's interesting how we've gone. From chat GBT plus, and we have [00:16:20] multiple plus accounts, and then ~we've got the pros account.~
+
+We've got a couple of pro accounts, and then when actually there are other ais that are doing that can do us the job and we don't [00:16:30] need all ~these,~ these chat GBT accounts. Yeah, because ~I think what, you know, the, in the,~ there are different types of businesses when you think about the three main elements of a businesses attract, convert, and deliver.
+
+The [00:16:40] businesses that are really good at attract, there's business really good at Convert, and there's businesses that are really good at deliver and they have to learn the other bits, but some of them are really good. So I think OpenAI is really [00:16:50] good at attract and they've done a great job. ~I,~ I don't think they're profitable and there's a huge rumor out about how I.
+
+Whether they are actually profitable with, you know, how they've been [00:17:00] operating so far. ~And it could very well be that they're not profitable. So neither here nor there,~ but I'm just trying to say that there's so many other tools that you should look at and not only look at the tools, but look at how you talk [00:17:10] to the tools.
+
+Because if you know how to talk to the tools, then you. Yourself can engage whether that tool is good for you. Like I know that if I use a [00:17:20] certain tool, I know, okay, well I'm not getting the result I want because I know that my conversation too is correct. So I don't have to like debate whether [00:17:30] this tool is good or not.
+
+So I think that's the first piece. Understand how you can communicate. The next is there's so many. Anthropic by Claude, by Anthropic is probably my, one of my favorites right now, [00:17:40] Gemini by Google. Easily pushing some boundaries especially with, I think their video is very good and notebook LM with podcasting also ~is,~ is extremely [00:17:50] good.
+
+There's sort of elements there that are really good that Google do that. Which Chad, GPD doesn't, or even Claude doesn't in terms of context size, ~the,~ the amount of data that [00:18:00] Google is able to handle is way more than its nearest competitor by a long shot. So in that respect, you know, Gemini is a, ~is ~is a pro [00:18:10] account worth having.
+
+So we've got Claude, we've got. Gemini, we use perplexity. We think ~that ~that is a really good one, especially with deep research. Grok is pretty good [00:18:20] by Twitter because it's uncensored. So for example, my dad recently went through an angiogram and got an angioplasty and, you know, we [00:18:30] were trying to decipher his reports.
+
+Chad GPT wouldn't but Grok did, which was useful. ~You know, at,~ at the time it was useful because that's exactly what [00:18:40] happened. ~I did not have a Grok Pro account and then I got, I actually bought it at the hospital and it was very useful to like, you know, look at the reports and click the picture and say, can you tell me what's going on?~
+
+~Rather than wait for someone to tell us, and even. Give us some, you know, twisted version of what the fruit really is. So that, that's useful in terms of UNC censorship, you know, and I think I, I,~ I actually don't know where the line is with UNC censorship. I don't feel qualified enough to talk about that in terms of ai, but I do feel that [00:18:50] data is like super important.
+
+So the amount of the data that. The AI is trained on, or the context that you give the AI is a [00:19:00] huge piece of the results you're gonna get. So there's different things, and I think what the key for everyone listening is what is your use case? [00:19:10] So right now, I would ask you to first go and make a list of the 10 activities you do most often in the week.
+
+Just [00:19:20] make a list of what they are. And then find out what process you use to get there and then see in that process, if you can augment that with ai and that [00:19:30] will be way more productive for anyone listening than any tool I give you right now.
+
+Matt Alder: ~Yeah, of course, of course. Makes perfect sense. Final question. Tell us about your book.~
+
+Ronsley Vaz: ~Yeah. The book is a, is a second of two. The first book is Amplify, which is how to. Use a podcast to grow a business. And the second book is Amplify Ai. Funny enough you know, the story of how the book is named is, is crazy because I didn't think of this name. AI told me to name it this, and once it came up with the name, I was like, of course it makes so much sense.~
+
+~But you know, it was right in front of me and I didn't even this book is, is, is all about augmentation of intelligence. It's about the reduction of human cognitive load. So. You see, you talk, you talk to people these days and you, you hear about how they are anxious or overwhelmed or burnt out, or there's all these, there.~
+
+~The, the human cognitive load is at its peak as like it, we, we feel constantly that we're missing something that we're, we're supposed to be doing in general. So the book. The book would've taken five years to write. And it is just a combination of so much including how a business can use AI to grow operations, revenue, brand, and audience.~
+
+~That's the second, the third part of the book the first part of the book is how to see intelligence, and I've used indigenous wisdom. Algorithms that have existed in nature, like bird patterns and ecosystems to inform how to create AI going forward that are collaborative in nature. And the middle part of my book, part two, is about an, it's about ethical use of AI and how.~
+
+~What to think about when you're using ai. And I know most of us right now are talking about AI and are looking for use cases, but obviously there's an ethical boundary that we've gotta talk, we've gotta talk about people's data is at stake people's, I suppose. IP in a way is at stake, but how much of that IP really belongs to us is a, is a big case that I'd like to make at some point.~
+
+~So I feel like the book is basically a a, a map for businesses on how to grow those four things, revenue, operations, brand and audience, and and also a way to think about ai. In a way that is useful for us going forward. Yeah.~
+
+Matt Alder: Fantastic Ronsley. Thank you very much for talking to me.
+
+Ronsley Vaz: Ah, it's been a pleasure. Thanks Matt. 
+
