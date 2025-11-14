@@ -35,3 +35,4 @@
 # This ensures consistency across Windows, Mac, and Linux
 transcripts/*.txt text eol=lf
 
+

@@ -19,15 +19,20 @@ let embeddingPipeline: Pipeline | null = null;
  */
 async function getEmbeddingPipeline(): Promise<Pipeline> {
   if (!embeddingPipeline) {
-    console.log('Loading Hugging Face embedding model (first time may take a moment)...');
-    embeddingPipeline = await pipeline(
-      'feature-extraction',
-      EMBEDDING_MODEL,
-      {
-        quantized: true, // Use quantized model for faster loading and smaller size
-      }
-    );
-    console.log('Embedding model loaded successfully!');
+    try {
+      console.log('Loading Hugging Face embedding model (first time may take a moment)...');
+      embeddingPipeline = await pipeline(
+        'feature-extraction',
+        EMBEDDING_MODEL,
+        {
+          quantized: true, // Use quantized model for faster loading and smaller size
+        }
+      );
+      console.log('Embedding model loaded successfully!');
+    } catch (error: any) {
+      console.error('Failed to load embedding model:', error);
+      throw new Error(`Failed to initialize embedding model: ${error.message || 'Unknown error'}`);
+    }
   }
   return embeddingPipeline;
 }

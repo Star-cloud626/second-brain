@@ -13,7 +13,10 @@ A semantic search interface for YouTube episode transcripts using vector databas
 
 ## 📋 Prerequisites
 
+- **Linux** (Ubuntu, Debian, Fedora, Arch, etc.) - **Recommended**
+  - Windows is supported but has known file locking issues with ChromaDB
 - Node.js 18+ and npm/yarn
+- Python 3.8-3.11 (for ChromaDB)
 - Transcript files in `.txt` format
 - **No API keys needed!** Uses free local Hugging Face models
 
@@ -27,18 +30,43 @@ npm install
 yarn install
 ```
 
-### 2. Environment Configuration (Optional)
+### 2. Start ChromaDB Server
+
+**Important**: ChromaDB 3.x requires a running server.
+
+**Linux Setup (Recommended):**
+1. Make scripts executable: `chmod +x *.sh`
+2. Run setup: `./setup-chromadb-linux.sh`
+3. Start server: `./start-chromadb-linux.sh` (keep this terminal open)
+
+**Or manually:**
+```bash
+pip3 install chromadb[server]
+chroma run --path ./chroma_db --host localhost --port 8000
+```
+
+See [LINUX_SETUP.md](./LINUX_SETUP.md) for detailed Linux instructions.
+
+**Windows Setup (Not Recommended - Has File Locking Issues):**
+⚠️ ChromaDB has known file locking issues on Windows. Linux is strongly recommended.
+If you must use Windows, see [WINDOWS_SETUP.md](./WINDOWS_SETUP.md) for instructions.
+
+### 3. Environment Configuration (Optional)
 
 Create a `.env` file in the root directory (optional - only if you want to customize):
 
 ```env
-CHROMA_DB_PATH=./chroma_db
+CHROMA_HOST=localhost
+CHROMA_PORT=8000
+CHROMA_SSL=false
 NEXT_PUBLIC_APP_URL=http://localhost:3000
 ```
 
-**Note**: No API keys needed! The app uses free local Hugging Face models that run entirely on your machine.
+**Note**: 
+- No API keys needed! The app uses free local Hugging Face models.
+- ChromaDB server must be running (see step 2 above).
 
-### 3. Prepare Transcript Files
+### 4. Prepare Transcript Files
 
 1. Create a `transcripts` directory in the project root
 2. Place your transcript `.txt` files in this directory
@@ -49,7 +77,7 @@ NEXT_PUBLIC_APP_URL=http://localhost:3000
 - Timestamps in format `[00:00:00]`
 - Dialogue text (may include tilde markers `~`)
 
-### 4. Run the Development Server
+### 5. Run the Development Server
 
 ```bash
 npm run dev
@@ -199,7 +227,22 @@ Get specific episode details.
 
 ### "No episodes found"
 - Make sure you've ingested at least one transcript file
-- Check that ChromaDB is running and the database path is correct
+- Check that ChromaDB server is running (use `test-chromadb-connection.bat` to verify)
+
+### "Error creating Frontend Config" or "Cannot create a file when that file already exists"
+- This is a Windows file locking issue - ChromaDB can't create its config files
+- **Quick fix**: Run `reset-chromadb.bat` (deletes everything, fresh start)
+  - ⚠️ WARNING: This deletes ALL data - you'll need to re-ingest transcripts
+- **Alternative** (keeps data): Run `clean-chromadb.bat`, then try starting again
+
+### "Cannot connect to ChromaDB"
+- **Verify server is running**: Run `test-chromadb-connection.bat` or open http://localhost:8000/api/v1/heartbeat in browser
+- **Check if server crashed**: Look at the ChromaDB terminal window for error messages
+- **Restart ChromaDB**: 
+  1. Stop the server (Ctrl+C in the ChromaDB terminal)
+  2. Run `clean-chromadb.bat` to remove lock files (or `reset-chromadb.bat` for fresh start)
+  3. Run `start-chromadb-windows.bat` again
+- **Firewall**: Make sure Windows Firewall isn't blocking port 8000
 
 ### Batch processing fails
 - Check that all transcript files are valid `.txt` files
@@ -215,33 +258,37 @@ Get specific episode details.
 
 ## 🚢 Deployment
 
-### Docker Deployment (Recommended for Ubuntu/Linux)
+### Linux Deployment (Recommended)
 
-The easiest way to deploy on Ubuntu is using Docker:
+For Linux, use the provided shell scripts:
 
-```bash
-# Build and start
-docker-compose up -d
+1. **Setup ChromaDB**: Run `./setup-chromadb-linux.sh`
+2. **Start ChromaDB**: Run `./start-chromadb-linux.sh` (keep running)
+3. **Start App**: Run `npm run dev`
 
-# View logs
-docker-compose logs -f
+See [LINUX_SETUP.md](./LINUX_SETUP.md) for detailed instructions.
 
-# Stop
-docker-compose down
-```
+### Windows Deployment (Not Recommended)
 
-See [DOCKER.md](./DOCKER.md) for detailed Docker deployment instructions.
+⚠️ ChromaDB has known file locking issues on Windows. Linux is strongly recommended.
+
+If you must use Windows:
+1. **Setup ChromaDB**: Run `setup-chromadb-windows.bat`
+2. **Start ChromaDB**: Run `start-chromadb-windows.bat` (keep running)
+3. **Start App**: Run `npm run dev`
+
+See [WINDOWS_SETUP.md](./WINDOWS_SETUP.md) for detailed instructions.
 
 ### Other Deployment Options
 
 This application can also be deployed to:
-- **Vercel**: Next.js platform (note: ChromaDB data persistence may require external storage)
+- **Vercel**: Next.js platform (note: ChromaDB requires a running server)
 - **Netlify**: Similar considerations as Vercel
-- **Any Node.js hosting**: Ensure Node.js 18+ and proper data persistence
+- **Any Node.js hosting**: Ensure Node.js 18+ and ChromaDB server running
 
 **Important for production:**
 1. Set environment variables in your hosting platform
-2. Ensure ChromaDB data persistence (use volumes in Docker, or cloud storage)
+2. Ensure ChromaDB server is running and accessible
 3. The Hugging Face model cache should persist between restarts
 
 ---

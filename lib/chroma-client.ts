@@ -5,9 +5,54 @@
 
 import { ChromaClient } from 'chromadb';
 
-const client = new ChromaClient({
-  path: process.env.CHROMA_DB_PATH || './chroma_db',
-});
+// ChromaDB 3.x requires a running server - it doesn't support embedded/local file storage
+// For local development, we'll connect to localhost:8000
+// You need to run: chroma run --path ./chroma_db (or set CHROMA_HOST and CHROMA_PORT)
+const CHROMA_HOST = process.env.CHROMA_HOST || 'localhost';
+const CHROMA_PORT = process.env.CHROMA_PORT ? parseInt(process.env.CHROMA_PORT) : 8000;
+const CHROMA_SSL = process.env.CHROMA_SSL === 'true';
+
+// Lazy initialization - only create client when needed
+let client: ChromaClient | null = null;
+
+/**
+ * Get or create the ChromaDB client
+ * This ensures the client is only created when actually needed
+ */
+function getClient(): ChromaClient {
+  if (!client) {
+    console.log(`Initializing ChromaDB client: ${CHROMA_SSL ? 'https' : 'http'}://${CHROMA_HOST}:${CHROMA_PORT}`);
+    try {
+      client = new ChromaClient({
+        host: CHROMA_HOST,
+        port: CHROMA_PORT,
+        ssl: CHROMA_SSL,
+      });
+    } catch (error: any) {
+      console.error('Failed to create ChromaDB client:', error);
+      throw new Error(
+        `Failed to initialize ChromaDB client: ${error.message || 'Unknown error'}\n` +
+        `Make sure ChromaDB server is running at ${CHROMA_HOST}:${CHROMA_PORT}`
+      );
+    }
+  }
+  return client;
+}
+
+/**
+ * Test connection to ChromaDB server
+ */
+async function testConnection(): Promise<boolean> {
+  try {
+    const clientInstance = getClient();
+    // Try to list collections as a connection test
+    await clientInstance.listCollections();
+    return true;
+  } catch (error: any) {
+    console.error('ChromaDB connection test failed:', error.message);
+    return false;
+  }
+}
 
 const COLLECTION_NAME = 'episode_transcripts';
 
@@ -23,18 +68,70 @@ export interface EmbeddingDocument {
 
 /**
  * Get or create the collection for episode transcripts
+ * We provide embeddings manually, so we don't need an embedding function
  */
 export async function getCollection() {
   try {
-    const collection = await client.getOrCreateCollection({
-      name: COLLECTION_NAME,
-      metadata: {
-        description: 'YouTube episode transcripts with embeddings',
-      },
-    });
+    const clientInstance = getClient();
+    
+    // Test connection first
+    try {
+      await clientInstance.heartbeat();
+    } catch (heartbeatError: any) {
+      throw new Error(
+        `Cannot connect to ChromaDB server at ${CHROMA_HOST}:${CHROMA_PORT}.\n\n` +
+        `Please make sure ChromaDB server is running:\n` +
+        `  1. Run: start-chromadb-windows.bat\n` +
+        `  2. Or manually: chroma run --path ./chroma_db --host localhost --port 8000\n\n` +
+        `Verify the server is running by opening: http://localhost:8000/api/v1/heartbeat\n` +
+        `You should see a JSON response with "nanosecond heartbeat".`
+      );
+    }
+    
+    // Try to get existing collection first
+    let collection;
+    try {
+      collection = await clientInstance.getCollection({
+        name: COLLECTION_NAME,
+      });
+    } catch (error: any) {
+      // Collection doesn't exist, create it
+      // We provide embeddings manually, so we explicitly set embeddingFunction to null
+      collection = await clientInstance.createCollection({
+        name: COLLECTION_NAME,
+        embeddingFunction: null, // Explicitly disable embedding function - we provide embeddings manually
+        metadata: {
+          description: 'YouTube episode transcripts with embeddings',
+        },
+      });
+    }
     return collection;
-  } catch (error) {
+  } catch (error: any) {
     console.error('Error getting collection:', error);
+    
+    // If it's already our custom error message, just re-throw it
+    if (error.message && error.message.includes('Cannot connect to ChromaDB')) {
+      throw error;
+    }
+    
+    // Provide helpful error message if connection fails
+    if (
+      error?.message?.includes('ECONNREFUSED') || 
+      error?.message?.includes('fetch failed') ||
+      error?.name === 'ChromaConnectionError' ||
+      error?.message?.includes('Failed to connect') ||
+      error?.message?.includes('NetworkError')
+    ) {
+      throw new Error(
+        `Cannot connect to ChromaDB server at ${CHROMA_HOST}:${CHROMA_PORT}.\n\n` +
+        `Please make sure ChromaDB server is running:\n` +
+        `  1. Run: start-chromadb-windows.bat\n` +
+        `  2. Or manually: chroma run --path ./chroma_db --host localhost --port 8000\n\n` +
+        `Verify the server is running by opening: http://localhost:8000/api/v1/heartbeat\n` +
+        `You should see a JSON response with "nanosecond heartbeat".`
+      );
+    }
+    
     throw error;
   }
 }
@@ -47,7 +144,7 @@ export async function addDocuments(
   documents: EmbeddingDocument[]
 ) {
   const collection = await getCollection();
-  
+  console.log("collection", collection);
   const ids = documents.map((doc) => doc.id);
   const texts = documents.map((doc) => doc.text);
   const metadatas = documents.map((doc) => ({
@@ -139,11 +236,13 @@ export async function getEpisodeById(episodeId: string) {
     return null;
   }
 
-  const chunks = results.documents.map((doc: string, index: number) => ({
-    text: doc,
-    chunkIndex: results.metadatas?.[index]?.chunkIndex || index,
-    timestamp: results.metadatas?.[index]?.timestamp,
-  }));
+  const chunks = results.documents
+    .filter((doc): doc is string => doc !== null)
+    .map((doc: string, index: number) => ({
+      text: doc,
+      chunkIndex: results.metadatas?.[index]?.chunkIndex || index,
+      timestamp: results.metadatas?.[index]?.timestamp,
+    }));
 
   return {
     episodeId,
@@ -153,5 +252,6 @@ export async function getEpisodeById(episodeId: string) {
   };
 }
 
-export { client };
+// Export getClient function for external use if needed
+export { getClient };
 

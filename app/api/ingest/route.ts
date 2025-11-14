@@ -9,6 +9,10 @@ import { parseTranscript } from '@/lib/transcript-processor';
 import { generateEmbeddingsBatch } from '@/lib/embeddings-client';
 import { addDocuments, type EmbeddingDocument } from '@/lib/chroma-client';
 
+// Ensure Node.js runtime for transformers library
+export const runtime = 'nodejs';
+export const maxDuration = 300; // 5 minutes for processing
+
 export async function POST(request: NextRequest) {
   try {
     const formData = await request.formData();
@@ -22,6 +26,7 @@ export async function POST(request: NextRequest) {
         { status: 400 }
       );
     }
+
 
     // Read file content
     const content = await file.text();
@@ -38,6 +43,7 @@ export async function POST(request: NextRequest) {
 
     // Generate embeddings
     const texts = chunks.map((chunk) => chunk.text);
+
     const embeddings = await generateEmbeddingsBatch(texts);
 
     // Prepare documents for ChromaDB
@@ -51,6 +57,7 @@ export async function POST(request: NextRequest) {
       metadata: chunk.metadata,
     }));
 
+    console.log("documents", documents);
     // Store in vector database
     await addDocuments(embeddings, documents);
 
@@ -63,8 +70,17 @@ export async function POST(request: NextRequest) {
     });
   } catch (error: any) {
     console.error('Error ingesting transcript:', error);
+    
+    // Provide more detailed error information
+    const errorMessage = error?.message || 'Failed to ingest transcript';
+    const errorStack = process.env.NODE_ENV === 'development' ? error?.stack : undefined;
+    
     return NextResponse.json(
-      { error: error.message || 'Failed to ingest transcript' },
+      { 
+        error: errorMessage,
+        details: errorStack,
+        type: error?.name || 'UnknownError'
+      },
       { status: 500 }
     );
   }
