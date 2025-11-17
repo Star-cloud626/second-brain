@@ -3,14 +3,35 @@
  * Manages vector database connection and operations
  */
 
-import { ChromaClient } from 'chromadb';
+import { 
+  ChromaClient, 
+  Collection, 
+  DefaultEmbeddingFunction,
+  ChromaNotFoundError,
+} from 'chromadb';
 
-// ChromaDB 3.x requires a running server - it doesn't support embedded/local file storage
+// ChromaDB requires a running server - it doesn't support embedded/local file storage
 // For local development, we'll connect to localhost:8000
-// You need to run: chroma run --path ./chroma_db (or set CHROMA_HOST and CHROMA_PORT)
-const CHROMA_HOST = process.env.CHROMA_HOST || 'localhost';
-const CHROMA_PORT = process.env.CHROMA_PORT ? parseInt(process.env.CHROMA_PORT) : 8000;
-const CHROMA_SSL = process.env.CHROMA_SSL === 'true';
+// You need to run: ./start-chromadb-linux.sh (or set CHROMA_PATH)
+const CHROMA_PATH = process.env.CHROMA_PATH || process.env.CHROMA_HOST 
+  ? `${process.env.CHROMA_SSL === 'true' ? 'https' : 'http'}://${process.env.CHROMA_HOST || 'localhost'}:${process.env.CHROMA_PORT || 8000}`
+  : 'http://localhost:8000';
+
+const VERSION_MISMATCH_MESSAGE = 
+  `ChromaDB Version Mismatch Detected\n\n` +
+  `The JavaScript client (chromadb v1.x) requires ChromaDB server 0.5+ which supports the v2 API.\n` +
+  `Your server is running ChromaDB 0.4.22 which only supports the v1 API.\n\n` +
+  `To fix this, you need to upgrade Python to 3.9+ and reinstall ChromaDB:\n\n` +
+  `  1. Install Python 3.9 or later:\n` +
+  `     sudo apt update\n` +
+  `     sudo apt install python3.9 python3.9-pip\n\n` +
+  `  2. Update setup script to use Python 3.9, then run:\n` +
+  `     ./setup-chromadb-linux.sh\n` +
+  `     (The script will detect Python 3.9+ and install ChromaDB 0.5+)\n\n` +
+  `  3. Restart ChromaDB server:\n` +
+  `     ./start-chromadb-linux.sh\n\n` +
+  `Note: ChromaDB 0.4.x and the JavaScript client v1.x are incompatible.\n` +
+  `You must upgrade to ChromaDB 0.5+ for the client to work.`;
 
 // Lazy initialization - only create client when needed
 let client: ChromaClient | null = null;
@@ -21,18 +42,16 @@ let client: ChromaClient | null = null;
  */
 function getClient(): ChromaClient {
   if (!client) {
-    console.log(`Initializing ChromaDB client: ${CHROMA_SSL ? 'https' : 'http'}://${CHROMA_HOST}:${CHROMA_PORT}`);
+    console.log(`Initializing ChromaDB client: ${CHROMA_PATH}`);
     try {
       client = new ChromaClient({
-        host: CHROMA_HOST,
-        port: CHROMA_PORT,
-        ssl: CHROMA_SSL,
+        path: CHROMA_PATH,
       });
     } catch (error: any) {
       console.error('Failed to create ChromaDB client:', error);
       throw new Error(
         `Failed to initialize ChromaDB client: ${error.message || 'Unknown error'}\n` +
-        `Make sure ChromaDB server is running at ${CHROMA_HOST}:${CHROMA_PORT}`
+        `Make sure ChromaDB server is running at ${CHROMA_PATH}`
       );
     }
   }
@@ -73,38 +92,16 @@ export interface EmbeddingDocument {
 export async function getCollection() {
   try {
     const clientInstance = getClient();
-    
-    // Test connection first
-    try {
-      await clientInstance.heartbeat();
-    } catch (heartbeatError: any) {
-      throw new Error(
-        `Cannot connect to ChromaDB server at ${CHROMA_HOST}:${CHROMA_PORT}.\n\n` +
-        `Please make sure ChromaDB server is running:\n` +
-        `  1. Run: start-chromadb-windows.bat\n` +
-        `  2. Or manually: chroma run --path ./chroma_db --host localhost --port 8000\n\n` +
-        `Verify the server is running by opening: http://localhost:8000/api/v1/heartbeat\n` +
-        `You should see a JSON response with "nanosecond heartbeat".`
-      );
-    }
-    
-    // Try to get existing collection first
-    let collection;
-    try {
-      collection = await clientInstance.getCollection({
-        name: COLLECTION_NAME,
-      });
-    } catch (error: any) {
-      // Collection doesn't exist, create it
-      // We provide embeddings manually, so we explicitly set embeddingFunction to null
-      collection = await clientInstance.createCollection({
-        name: COLLECTION_NAME,
-        embeddingFunction: null, // Explicitly disable embedding function - we provide embeddings manually
-        metadata: {
-          description: 'YouTube episode transcripts with embeddings',
-        },
-      });
-    }
+    await ensureServerSupportsV2(clientInstance);
+
+    const collection = await clientInstance.getOrCreateCollection({
+      name: COLLECTION_NAME,
+      embeddingFunction: new DefaultEmbeddingFunction(),
+      metadata: {
+        description: 'YouTube episode transcripts with embeddings',
+      },
+    });
+
     return collection;
   } catch (error: any) {
     console.error('Error getting collection:', error);
@@ -123,15 +120,42 @@ export async function getCollection() {
       error?.message?.includes('NetworkError')
     ) {
       throw new Error(
-        `Cannot connect to ChromaDB server at ${CHROMA_HOST}:${CHROMA_PORT}.\n\n` +
+        `Cannot connect to ChromaDB server at ${CHROMA_PATH}.\n\n` +
         `Please make sure ChromaDB server is running:\n` +
-        `  1. Run: start-chromadb-windows.bat\n` +
-        `  2. Or manually: chroma run --path ./chroma_db --host localhost --port 8000\n\n` +
-        `Verify the server is running by opening: http://localhost:8000/api/v1/heartbeat\n` +
+        `  1. Run: ./start-chromadb-linux.sh\n` +
+        `  2. Or manually: python3 run_chroma_pysqlite.py run --path ./chroma_db --host localhost --port 8000\n\n` +
+        `Verify the server is running by opening: ${CHROMA_PATH}/api/v1/heartbeat\n` +
         `You should see a JSON response with "nanosecond heartbeat".`
       );
     }
     
+    throw error;
+  }
+}
+
+function createVersionMismatchError() {
+  return new Error(VERSION_MISMATCH_MESSAGE);
+}
+
+function isV2UnsupportedError(error: any) {
+  if (!error) {
+    return false;
+  }
+  const message = error.message || '';
+  return (
+    error instanceof ChromaNotFoundError ||
+    message.includes('/api/v2/') ||
+    message.includes('api/v2')
+  );
+}
+
+async function ensureServerSupportsV2(clientInstance: ChromaClient) {
+  try {
+    await clientInstance.heartbeat();
+  } catch (error: any) {
+    if (isV2UnsupportedError(error)) {
+      throw createVersionMismatchError();
+    }
     throw error;
   }
 }
